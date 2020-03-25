@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MiResidencia20.Views.PorcentajeEvaluacion"
+            x:Class="MiResidencia20.Views.Logueo.MenuTabbedPage"
+            BarBackgroundColor="WhiteSmoke"
+            BarTextColor="Black"
+            Title="Menú">
+     <TabbedPage.Children>
+            <ContentPage Title="Teoría" IconImageSource="ico_teoria.png">
+                <!--Uso mis Grid-->
+                <ScrollView>
+                   <Grid Margin="10,10">
+                            <!--Defino mis filas-->
+                            <Grid.RowDefinitions>
+                                <!--Difino mis filas a usar de 0-n-->
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <!--Defino mis columnas-->
+                            <Grid.ColumnDefinitions>
+                                 <!--Difino mis filas a usar de 0-n-->
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Button Text=" Unidad 1"  Grid.Row="0" Grid.Column="0" Clicked="Btn_IrAUnidad1"/>    
+                            <Button Text=" Unidad 2"  Grid.Row="0" Grid.Column="1" Clicked="Btn_IrAUnidad2"/>
+                            <Button Text=" Unidad 3"  Grid.Row="1" Grid.Column="0" Clicked="Btn_IrAUnidad3"/>
+                            <Button Text=" Unidad 4"  Grid.Row="1" Grid.Column="1" Clicked="Btn_IrAUnidad4"/>
+                            <Button Text=" Unidad 5"  Grid.Row="2" Grid.Column="0" Clicked="Btn_IrAUnidad5"/>
+                            <Button Text=" Unidad 6"  Grid.Row="2" Grid.Column="1" Clicked="Btn_IrAUnidad6"/>
+                            <Button Text=" Unidad 7"  Grid.Row="3" Grid.Column="0" Clicked="Btn_IrAUnidad7"/>
+                            <Button Text=" Unidad 8"  Grid.Row="3" Grid.Column="1" Clicked="Btn_IrAUnidad8"/>
+                            <Button Text=" Unidad 9"  Grid.Row="4" Grid.Column="0" Clicked="Btn_IrAUnidad9"/>
+                   </Grid>
+                </ScrollView>
+             </ContentPage>
+
+             <ContentPage Title="Juego" IconImageSource="ico_juego.png">
+                <StackLayout>
+                    <Label Text="Mis videos"/>
+                </StackLayout>
+            </ContentPage>
+
+            <ContentPage Title="Evaluación" IconImageSource="ico_ejercicio.png">
+                <StackLayout>
+                    <Label Text="Mis evaluaciones"/>
+                </StackLayout>
+            </ContentPage>
+         <!--
+          <ContentPage Title="VerEvaluación" IconImageSource="ico_evaluacion.png">
+                <StackLayout>
+                    <Label Text="Mis evaluaciones"/>
+                </StackLayout>
+            </ContentPage>
+         -->
+        </TabbedPage.Children>
+
+         <local:PEvaluacionPage/>
+      
+</TabbedPage>

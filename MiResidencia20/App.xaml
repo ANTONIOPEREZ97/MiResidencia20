@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="MiResidencia20.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            
+
+            <!--1.Botones  Globales-->
+            <Style TargetType="Button">
+                  <Setter Property="BackgroundColor" Value="#1E4D7E" ></Setter>
+                  <Setter Property="TextColor"       Value="White"></Setter>
+                  <Setter Property="CornerRadius"    Value="0"></Setter>
+                <Setter Property="HeightRequest"     Value="40"></Setter>
+                <Setter Property="FontAttributes"    Value="Bold"></Setter>
+            </Style>
+
+            
+             <!--2.Label -->
+            <Style TargetType="Label">
+                 <Setter Property="FontAttributes" Value="Bold"></Setter>
+                 <Setter Property="TextColor" Value="#1E4D7E"></Setter>
+            </Style>
+
+              <!--3.Frames -->
+            <Style TargetType="Frame">
+                <Setter Property="HasShadow"       Value="True"></Setter>
+                <Setter Property="Padding"         Value="0,1,0,0"></Setter>
+            </Style>
+
+              <!-- 4.Entrys -->
+            <Style TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="#E8F0FE"></Setter>
+                 <Setter Property="WidthRequest"      Value="275"></Setter>
+                 <Setter Property="HeightRequest"     Value="50"></Setter>
+            </Style>
+
+             <!-- 5.Labels Cabeceras VerPorcentajes-->
+                <Style TargetType="Label" x:Key="Lbl_Cabecera">
+                    <Setter Property="VerticalTextAlignment" Value="Center"></Setter>
+                    <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
+                    <Setter Property="TextColor" Value="#FFFF66"></Setter>
+                    <Setter Property="BackgroundColor" Value="#1E4D7E"></Setter>
+                    <Setter Property="FontAttributes" Value="Bold"></Setter> 
+                </Style>
+
+            <!-- 5.1 Labels  Unidades VerPorcentajes-->
+                <Style TargetType="Label" x:Key="Lbl_Unidad">
+                    <Setter Property="VerticalTextAlignment" Value="Center"></Setter>
+                    <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
+                    <Setter Property="TextColor" Value="#ff9800"></Setter>
+                    <Setter Property="BackgroundColor" Value="#EEEEEE"></Setter>
+                    <Setter Property="FontAttributes" Value="Bold"></Setter> 
+                </Style>
+
+              <!--6.Contenido de Teorías-->
+
+              <!--7.Contenido de Ejercicios-->
+
+              <!--8.Contenido de Juegos-->
+
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
