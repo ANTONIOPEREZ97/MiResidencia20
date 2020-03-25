@@ -135,8 +135,8 @@
   <ItemGroup>
     <BundleResource Include="Resources\tecnm.png" />
     <BundleResource Include="Resources\ico_video.png" />
-    <BundleResource Include="Resources\ico_teoria.png" />
     <BundleResource Include="Resources\ico_ejercicio.png" />
     <BundleResource Include="Resources\ico_evaluacion.png" />
+    <BundleResource Include="Resources\teoria.png" />
   </ItemGroup>
 </Project>
