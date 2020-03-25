@@ -45,6 +45,7 @@
                 </StackLayout>
             </ContentPage>
 
+
             <ContentPage Title="Evaluación" IconImageSource="ico_ejercicio.png">
                 <StackLayout>
                     <Label Text="Mis evaluaciones"/>
