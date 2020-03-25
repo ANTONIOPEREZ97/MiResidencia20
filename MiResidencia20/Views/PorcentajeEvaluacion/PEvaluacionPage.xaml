@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MiResidencia20.Views.PorcentajeEvaluacion.PEvaluacionPage"
-             Title="VerEvaluación"
+             Title="Calificación"
              IconImageSource="ico_evaluacion.png">
 
   <ScrollView>
     <StackLayout>
 
 
-        <StackLayout Margin="40,40">
-            <Label Text="Porcentajes de Evaluación" FontSize="20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold"/>
+        <StackLayout Margin="40">
+            <Label Text="Porcentajes de Evaluación" Style="{StaticResource Lbl_TituloPrincipal}"/>
         </StackLayout>
 
         <Grid Margin="15,5">

@@ -3,7 +3,16 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="MiResidencia20.App">
     <Application.Resources>
         <ResourceDictionary>
-            
+
+              
+            <!-- Titulos Principales -->
+            <Style TargetType="Label" x:Key="Lbl_TituloPrincipal">
+                <Setter Property="FontSize" Value="18">  </Setter>
+                <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
+                <Setter Property="VerticalTextAlignment" Value="center"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                
+            </Style>
 
             <!--1.Botones  Globales-->
             <Style TargetType="Button">
@@ -34,6 +43,8 @@
                  <Setter Property="HeightRequest"     Value="50"></Setter>
             </Style>
 
+
+                <!-- Vista de Porcentaje de Evaluación-->
              <!-- 5.Labels Cabeceras VerPorcentajes-->
                 <Style TargetType="Label" x:Key="Lbl_Cabecera">
                     <Setter Property="VerticalTextAlignment" Value="Center"></Setter>
@@ -53,6 +64,25 @@
                 </Style>
 
               <!--6.Contenido de Teorías-->
+            <!--6.1 Subtitulos -->
+            <Style TargetType="Label" x:Key="Lbl_Subtitulos">
+                <Setter Property="FontSize" Value="12">  </Setter>
+                <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
+                <Setter Property="VerticalTextAlignment" Value="Start"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                <Setter Property="TextColor" Value="#ff9800"></Setter>
+            </Style>
+
+            <!--6.2 Contenido -->
+            <Style TargetType="Label" x:Key="Lbl_Contenido">
+                <Setter Property="FontSize" Value="14">  </Setter>
+                <Setter Property="HorizontalOptions" Value="StartAndExpand"></Setter>
+                <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
+                <Setter Property="VerticalTextAlignment" Value="Start"></Setter>
+                <Setter Property="FontAttributes" Value="None"></Setter>
+                <Setter Property="TextColor" Value="Black"></Setter>
+            </Style>
+            
 
               <!--7.Contenido de Ejercicios-->
 

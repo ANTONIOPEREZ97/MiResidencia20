@@ -1,8 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MiResidencia20.Views.Teorias.TUnidad1Page">
-    
-   <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-        <Label Text="unidad 1 Teoría"/>
-    </StackLayout>
+             x:Class="MiResidencia20.Views.Teorias.TUnidad1Page"
+             BackgroundColor="#DEDECA">
+
+   <ScrollView>
+         <Frame BackgroundColor="#EEEEEE" CornerRadius="20" Margin="9">
+        <StackLayout  Margin="20">
+      
+            <Label Text="Unidad I. Números Reales" Style="{StaticResource Lbl_TituloPrincipal}"/>
+            <Label Text="1.1. Clasificación de los números reales" Style="{StaticResource Lbl_Subtitulos}"/>
+                <Label Text="Empecemos con los números naturales: 1,2,3,4,...
+                             Los enteros constan de los números naturales junto con
+                             sus negativos y 0: ...,_3,_2,_1,0,1,2,3, 4,...
+                             Construimos los números racionales al tomar razones de
+                             enteros. Entonces, cualquier número racional r puede
+                             expresarse como" Style="{StaticResource Lbl_Contenido}"/>
+            
+        </StackLayout>
+         </Frame>
+    </ScrollView>   
 </ContentPage>
