@@ -4,22 +4,20 @@
     <StackLayout Padding="30,90">
  
         <Label Text="Usuario"/>
-        <Frame><Entry Placeholder="Nombre de Usuario" Keyboard="Text"/></Frame>
+        <Frame><Entry Placeholder="Nombre de Usuario" Keyboard="Text" Text="{Binding UsuarioTxt,Mode=TwoWay}"/></Frame>
       
         <Label Text="Semestre"/>
-        <Frame><Entry Placeholder="Semestre 0" Keyboard="Numeric"/> </Frame>
+        <Frame><Entry Placeholder="Semestre 0" Keyboard="Numeric" Text="{Binding Mode=TwoWay}"/> </Frame>
   
         <Label Text="Grupo"/>
-        <Frame><Entry Placeholder="Grupo" Keyboard="Text"/></Frame>
+        <Frame><Entry Placeholder="Grupo" Keyboard="Text" Text="{Binding GrupoTxt, Mode=TwoWay}"/></Frame>
         
         <Label Text="Periodo"/>
-        <Frame><Entry Placeholder="ENE-JUN/2020" Keyboard="Text"/></Frame>
+        <Frame><Entry Placeholder="ENE-JUN/2020" Keyboard="Text" Text="{Binding PeriodoTxt,Mode=TwoWay}"/></Frame>
 
           <StackLayout Padding="90,30">
-            <Button Text="Registrarse" Clicked="Btn_Registrar"/>
+            <Button Text="Registrarse" Clicked="Btn_Registrar"  Command="{Binding Btn_RegistrarCommand}"/>
           </StackLayout>
         
     </StackLayout>
-
-
 </ContentPage>

@@ -7,9 +7,7 @@
             <Image Source="tecnm.png" Aspect="AspectFill"></Image>
 
             <StackLayout Padding="90,30">
-                <Button Text="Crear Usuario" Clicked="Btn_IrARegistro"/>
+                <Button Text="Crear Usuario" Clicked="Btn_IrARegistro" Command="{Binding Btn_CrearUsuarioCommand}"/>
             </StackLayout>
-
-
         </StackLayout>
 </ContentPage>

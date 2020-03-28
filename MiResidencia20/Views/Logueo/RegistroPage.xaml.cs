@@ -14,7 +14,7 @@ namespace MiResidencia20.Views
 
           async void  Btn_Registrar(System.Object sender, System.EventArgs e)
         {
-           await DisplayAlert("Felicitaciones","Registro Exitosamente","Comenzar");
+           await DisplayAlert("Felicitaciones","¡Usuario creado exitosamente!","Comenzar");
            await Navigation.PushAsync(new MenuTabbedPage());
 
         }
