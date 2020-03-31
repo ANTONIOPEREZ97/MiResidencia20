@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MiResidencia20.Views.RegistroPage" Title="Registrar Usuario">
+    <ScrollView>
     <StackLayout Padding="30,90">
- 
         <Label Text="Usuario"/>
-        <Frame><Entry Placeholder="Nombre de Usuario" Keyboard="Text" Text="{Binding UsuarioTxt,Mode=TwoWay}"/></Frame>
-      
-        <Label Text="Semestre"/>
-        <Frame><Entry Placeholder="Semestre 0" Keyboard="Numeric" Text="{Binding Mode=TwoWay}"/> </Frame>
+        <Frame><Entry Placeholder="Nombre de Usuario" Keyboard="Text" Text="{Binding UsuarioTxt, Mode=TwoWay}"/></Frame>
+
+        <Label Text="Carrera"/>
+        <Frame><Entry  Placeholder="Nombre de la Carrera" Keyboard="Text" Text="{Binding CarreraTxt,Mode=TwoWay}"/></Frame>
   
         <Label Text="Grupo"/>
-        <Frame><Entry Placeholder="Grupo" Keyboard="Text" Text="{Binding GrupoTxt, Mode=TwoWay}"/></Frame>
+        <Frame><Entry Placeholder="Grupo" Keyboard="Text" Text="{Binding GrupoTxt,Mode=TwoWay}"/></Frame>
         
         <Label Text="Periodo"/>
         <Frame><Entry Placeholder="ENE-JUN/2020" Keyboard="Text" Text="{Binding PeriodoTxt,Mode=TwoWay}"/></Frame>
@@ -20,4 +20,5 @@
           </StackLayout>
         
     </StackLayout>
+    </ScrollView>
 </ContentPage>

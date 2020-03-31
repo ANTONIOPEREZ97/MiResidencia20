@@ -9,12 +9,9 @@
       
             <Label Text="Unidad I. Números Reales" Style="{StaticResource Lbl_TituloPrincipal}"/>
             <Label Text="1.1. Clasificación de los números reales" Style="{StaticResource Lbl_Subtitulos}"/>
-                <Label Text="Empecemos con los números naturales: 1,2,3,4,...
-                             Los enteros constan de los números naturales junto con
-                             sus negativos y 0: ...,_3,_2,_1,0,1,2,3, 4,...
-                             Construimos los números racionales al tomar razones de
-                             enteros. Entonces, cualquier número racional r puede
-                             expresarse como" Style="{StaticResource Lbl_Contenido}"/>
+                <Label Text="Empecemos con los números naturales: 1,2,3,4,...Los enteros constan de los números naturales junto con sus negativos y 0: ...,_3,_2,_1,0,1,2,3, 4,...
+                             Construimos los números racionales al tomar razones de enteros. Entonces, cualquier número racional r puede expresarse como"
+                       Style="{StaticResource Lbl_Contenido}"/>
             
         </StackLayout>
          </Frame>

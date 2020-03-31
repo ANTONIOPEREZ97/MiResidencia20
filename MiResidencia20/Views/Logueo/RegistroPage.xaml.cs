@@ -12,11 +12,11 @@ namespace MiResidencia20.Views
             InitializeComponent();
         }
 
-          async void  Btn_Registrar(System.Object sender, System.EventArgs e)
+        async void  Btn_Registrar(System.Object sender, System.EventArgs e)
         {
-           await DisplayAlert("Felicitaciones","¡Usuario creado exitosamente!","Comenzar");
-           await Navigation.PushAsync(new MenuTabbedPage());
-
+                await DisplayAlert("Felicitaciones", "¡Usuario creado exitosamente!", "Comenzar");
+                await Navigation.PushAsync(new MenuTabbedPage());
+          
         }
     }
      
