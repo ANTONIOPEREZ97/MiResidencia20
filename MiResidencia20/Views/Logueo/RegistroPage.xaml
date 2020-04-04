@@ -4,16 +4,16 @@
     <ScrollView>
     <StackLayout Padding="30,90">
         <Label Text="Usuario"/>
-        <Frame><Entry Placeholder="Nombre de Usuario" Keyboard="Text" Text="{Binding UsuarioTxt, Mode=TwoWay}"/></Frame>
+        <Frame><Entry Placeholder="Nombre de Usuario" Keyboard="Text" x:Name="UsuarioEntry"/></Frame>
 
         <Label Text="Carrera"/>
-        <Frame><Entry  Placeholder="Nombre de la Carrera" Keyboard="Text" Text="{Binding CarreraTxt,Mode=TwoWay}"/></Frame>
+        <Frame><Entry  Placeholder="Nombre de la Carrera" Keyboard="Text" x:Name="carreraEntry" /></Frame>
   
         <Label Text="Grupo"/>
-        <Frame><Entry Placeholder="Grupo" Keyboard="Text" Text="{Binding GrupoTxt,Mode=TwoWay}"/></Frame>
+        <Frame><Entry Placeholder="Grupo" Keyboard="Text" x:Name="grupoEntry"/></Frame>
         
         <Label Text="Periodo"/>
-        <Frame><Entry Placeholder="ENE-JUN/2020" Keyboard="Text" Text="{Binding PeriodoTxt,Mode=TwoWay}"/></Frame>
+        <Frame><Entry Placeholder="ENE-JUN/2020" Keyboard="Text" x:Name="periodoEntry"/></Frame>
 
           <StackLayout Padding="90,30">
             <Button Text="Registrarse" Clicked="Btn_Registrar"  Command="{Binding Btn_RegistrarCommand}"/>
