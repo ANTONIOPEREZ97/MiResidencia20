@@ -74,12 +74,11 @@
             </Style>
 
             <!--6.2 Contenido -->
-            <Style TargetType="Label" x:Key="Lbl_Contenido">
-                <Setter Property="FontSize" Value="14">  </Setter>
-                <Setter Property="HorizontalOptions" Value="StartAndExpand"></Setter>
-                <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
+            <Style TargetType="Label" x:Key="Lbl_tituloSubtema">
+                <Setter Property="FontSize" Value="10">  </Setter>
+               <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
                 <Setter Property="VerticalTextAlignment" Value="Start"></Setter>
-                <Setter Property="FontAttributes" Value="None"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
                 <Setter Property="TextColor" Value="Black"></Setter>
             </Style>
             

@@ -4,16 +4,39 @@
              BackgroundColor="#DEDECA">
 
    <ScrollView>
+       
          <Frame BackgroundColor="#EEEEEE" CornerRadius="20" Margin="9">
-        <StackLayout  Margin="20">
-      
-            <Label Text="Unidad I. Números Reales" Style="{StaticResource Lbl_TituloPrincipal}"/>
-            <Label Text="1.1. Clasificación de los números reales" Style="{StaticResource Lbl_Subtitulos}"/>
-                <Label Text="Empecemos con los números naturales: 1,2,3,4,...Los enteros constan de los números naturales junto con sus negativos y 0: ...,_3,_2,_1,0,1,2,3, 4,...
-                             Construimos los números racionales al tomar razones de enteros. Entonces, cualquier número racional r puede expresarse como"
-                       Style="{StaticResource Lbl_Contenido}"/>
-            
-        </StackLayout>
+            <StackLayout  Margin="20">
+
+                <Label Text="Unidad I. Números Reales" Style="{StaticResource Lbl_TituloPrincipal}"/>
+
+                <Label Text="1.1. Clasificación de los números reales" Style="{StaticResource Lbl_Subtitulos}" Margin="0" Padding="0"/>
+                    <Image Source="teoriau1_img1.png" Aspect="AspectFill"></Image>
+                    <Image Source="teoriau1_img2.png" Aspect="AspectFill"></Image>
+
+                <Label Text="1.2. Propiedades de los números reales(axiomas)" Style="{StaticResource Lbl_Subtitulos}"/>
+                    <Image Source="teoriau1_img3.png" Aspect="AspectFill"></Image>
+                    <Label Text="Adición y sustracción" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
+                     <Image Source="teoriau1_img4.png" Aspect="AspectFill"></Image>
+
+                    <Label Text="Multiplicación y División" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
+                     <Image Source="teoriau1_img5.png" Aspect="AspectFill"></Image>
+
+                    <Label Text="La recta real" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
+                     <Image Source="teoriau1_img6.png" Aspect="AspectFill"></Image>
+
+                    <Label Text="La recta real" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
+                     <Image Source="teoriau1_img6.png" Aspect="AspectFill"></Image>
+
+                      <Label Text="Conjuntos e intervalos" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
+                     <Image Source="teoriau1_img7.png" Aspect="AspectFill"></Image>
+
+
+         
+
+            </StackLayout>
          </Frame>
+
+
     </ScrollView>   
 </ContentPage>

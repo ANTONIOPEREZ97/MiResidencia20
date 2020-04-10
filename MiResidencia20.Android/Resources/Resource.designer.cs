@@ -5806,10 +5806,31 @@ namespace MiResidencia20.Droid
 			public const int tecnm = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int tooltip_frame_dark = 2131165306;
+			public const int teoriau1_img1 = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int tooltip_frame_light = 2131165307;
+			public const int teoriau1_img2 = 2131165307;
+			
+			// aapt resource value: 0x7F07007C
+			public const int teoriau1_img3 = 2131165308;
+			
+			// aapt resource value: 0x7F07007D
+			public const int teoriau1_img4 = 2131165309;
+			
+			// aapt resource value: 0x7F07007E
+			public const int teoriau1_img5 = 2131165310;
+			
+			// aapt resource value: 0x7F07007F
+			public const int teoriau1_img6 = 2131165311;
+			
+			// aapt resource value: 0x7F070080
+			public const int teoriau1_img7 = 2131165312;
+			
+			// aapt resource value: 0x7F070081
+			public const int tooltip_frame_dark = 2131165313;
+			
+			// aapt resource value: 0x7F070082
+			public const int tooltip_frame_light = 2131165314;
 			
 			static Drawable()
 			{
