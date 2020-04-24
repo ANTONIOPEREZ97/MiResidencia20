@@ -1,9 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MiResidencia20.Views.Teorias.TUnidad2Page">
+             x:Class="MiResidencia20.Views.Teorias.TUnidad2Page"
+             BackgroundColor="#DEDECA">
+   <ScrollView>
+       
+         <Frame BackgroundColor="#EEEEEE" CornerRadius="20" Margin="9">
+            <StackLayout  Margin="20">
 
-    
-   <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-        <Label Text="unidad 2 Teoría"/>
-    </StackLayout>
+                <Label Text="Unidad II. Exponentes y Radicales " Style="{StaticResource Lbl_TituloPrincipal}"/>
+
+                <Label Text="Exponentes  enteror(negativos y positivos)" Style="{StaticResource Lbl_Subtitulos}" Margin="0" Padding="0"/>
+                    <Image Source="teoriau2_img1.png" Aspect="AspectFill"></Image>
+                    <Image Source="teoriau1_img2.png" Aspect="AspectFill"></Image>
+
+                <!--<Label Text="1.2. Propiedades de los números reales(axiomas)" Style="{StaticResource Lbl_Subtitulos}"/>
+                    <Image Source="teoriau1_img3.png" Aspect="AspectFill"></Image>
+                    <Label Text="Adición y sustracción" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
+                     <Image Source="teoriau1_img4.png" Aspect="AspectFill"></Image>-->
+            </StackLayout>
+         </Frame>
+    </ScrollView>   
 </ContentPage>
