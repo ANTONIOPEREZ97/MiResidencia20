@@ -7,25 +7,29 @@
              <ScrollView>
                   <StackLayout>
 
-                    <Label Text="Unidad I. Números Reales" Style="{StaticResource Lbl_TituloPrincipal}"/>
+                      <Label Text="Unidad I. Números Reales" Style="{StaticResource Lbl_TituloPrincipal}"/>
+                      <Label Text="1.1. Clasificación de los números reales" Style="{StaticResource Lbl_Subtitulos}" Margin="0" Padding="0"/>
+                      <Image Source="teoriau1_img1.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau1_img2.png" Aspect="AspectFill"></Image>
 
-                    <Label Text="1.1. Clasificación de los números reales" Style="{StaticResource Lbl_Subtitulos}" Margin="0" Padding="0"/>
-                        <Image Source="teoriau1_img1.png" Aspect="AspectFill"></Image>
-                        <Image Source="teoriau1_img2.png" Aspect="AspectFill"></Image>
+                      <Label Text="1.2. Propiedades de los números reales(axiomas)" Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau1_img3.png" Aspect="AspectFill"></Image>
 
-                    <Label Text="1.2. Propiedades de los números reales(axiomas)" Style="{StaticResource Lbl_Subtitulos}"/>
-                        <Image Source="teoriau1_img3.png" Aspect="AspectFill"></Image>
-                        <Label Text="Adición y sustracción" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
-                         <Image Source="teoriau1_img4.png" Aspect="AspectFill"></Image>
+                      <!-- Adición y sustracción-->
+                      <Label Text="Adición y sustracción" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
+                      <Image Source="teoriau1_img4.png" Aspect="AspectFill"></Image>
 
-                        <Label Text="Multiplicación y División" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
-                         <Image Source="teoriau1_img5.png" Aspect="AspectFill"></Image>
+                      <!-- Multiplicación y División-->
+                      <Label Text="Multiplicación y División" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
+                      <Image Source="teoriau1_img5.png" Aspect="AspectFill"></Image>
 
-                        <Label Text="La recta real" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
-                         <Image Source="teoriau1_img6.png" Aspect="AspectFill"></Image>
+                      <!-- La recta real-->
+                      <Label Text="La recta real" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
+                      <Image Source="teoriau1_img6.png" Aspect="AspectFill"></Image>
 
-                          <Label Text="Conjuntos e intervalos" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
-                         <Image Source="teoriau1_img7.png" Aspect="AspectFill"></Image>
+                      <!-- Conjuntos e intervalos-->
+                      <Label Text="Conjuntos e intervalos" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
+                      <Image Source="teoriau1_img7.png" Aspect="AspectFill"></Image>
                   </StackLayout>
             </ScrollView>  
          </Frame>
