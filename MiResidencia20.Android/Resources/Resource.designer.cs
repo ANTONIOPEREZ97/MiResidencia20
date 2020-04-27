@@ -5830,10 +5830,49 @@ namespace MiResidencia20.Droid
 			public const int teoriau2_img1 = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int tooltip_frame_dark = 2131165314;
+			public const int teoriau2_img10 = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int tooltip_frame_light = 2131165315;
+			public const int teoriau2_img11 = 2131165315;
+			
+			// aapt resource value: 0x7F070084
+			public const int teoriau2_img12 = 2131165316;
+			
+			// aapt resource value: 0x7F070085
+			public const int teoriau2_img13 = 2131165317;
+			
+			// aapt resource value: 0x7F070086
+			public const int teoriau2_img14 = 2131165318;
+			
+			// aapt resource value: 0x7F070087
+			public const int teoriau2_img2 = 2131165319;
+			
+			// aapt resource value: 0x7F070088
+			public const int teoriau2_img3 = 2131165320;
+			
+			// aapt resource value: 0x7F070089
+			public const int teoriau2_img4 = 2131165321;
+			
+			// aapt resource value: 0x7F07008A
+			public const int teoriau2_img5 = 2131165322;
+			
+			// aapt resource value: 0x7F07008B
+			public const int teoriau2_img6 = 2131165323;
+			
+			// aapt resource value: 0x7F07008C
+			public const int teoriau2_img7 = 2131165324;
+			
+			// aapt resource value: 0x7F07008D
+			public const int teoriau2_img8 = 2131165325;
+			
+			// aapt resource value: 0x7F07008E
+			public const int teoriau2_img9 = 2131165326;
+			
+			// aapt resource value: 0x7F07008F
+			public const int tooltip_frame_dark = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int tooltip_frame_light = 2131165328;
 			
 			static Drawable()
 			{
