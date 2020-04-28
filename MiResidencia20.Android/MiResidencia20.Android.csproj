@@ -194,6 +194,34 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+    <AndroidResource Include="Resources\drawable\teoriau3_img1.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\teoriau3_img2.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\teoriau3_img3.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\teoriau3_img4.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\teoriau3_img5.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\teoriau3_img6.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\teoriau3_img7.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

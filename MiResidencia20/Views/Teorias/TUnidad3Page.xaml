@@ -1,9 +1,75 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MiResidencia20.Views.Teorias.TUnidad3Page">
+             x:Class="MiResidencia20.Views.Teorias.TUnidad3Page"
+             BackgroundColor="#DEDECA">
 
-    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-        <Label Text="unidad 3 Teoría"/>
-    </StackLayout>
+    <Frame BackgroundColor="White" CornerRadius="5" Margin="5">
+             <ScrollView>
+                  <StackLayout>
 
+                      <Label Text="Unidad 3. Expresiones Algebraicas" Style="{StaticResource Lbl_TituloPrincipal}"/>
+                      <Image Source="teoriau3_img1.png" Aspect="AspectFill"></Image>
+
+                      <!-- Suma y resta de polinomios-->
+                      <Label Text="3.1 Suma y resta de polinomios" Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau3_img2.png" Aspect="AspectFill"></Image>
+
+                      <!-- Multiplicación de expresiones algebraicas-->
+                      <Label Text="3.2  Multiplicación de expresiones algebraicas" Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau3_img3.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau3_img4.png" Aspect="AspectFill"></Image>
+
+
+                      <!-- Productos notables-->
+                      <Label Text="3.3  Productos notables" Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau3_img5.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau3_img6.png" Aspect="AspectFill"></Image>
+
+                           <!-- Suma y diferencia de cuadrados-->
+                      <Label Text="3.3.1  Suma y diferencia de cuadrados" Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau_img.png" Aspect="AspectFill"></Image>
+
+                           <!-- Suma y diferencia de cubos-->
+                      <Label Text="3.3.2  Suma y diferencia de cubos" Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau3_img1.png" Aspect="AspectFill"></Image>
+
+
+
+                      <!-- Factorización-->
+                      <Label Text="3.4  Factorización" Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau3_img.png" Aspect="AspectFill"></Image>
+
+                           <!-- Factor común-->
+                      <Label Text="3.4.1  Factor común" Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau3_img.png" Aspect="AspectFill"></Image>
+
+                           <!-- Factor común por agrupación de términos-->
+                      <Label Text="3.4.2  Factor común por agrupación de términos" Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau3_img.png" Aspect="AspectFill"></Image>
+
+                      <!-- Factor común por agrupación de términos-->
+                      <Label Text="3.4.2  Factor común por agrupación de términos" Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau3_img.png" Aspect="AspectFill"></Image>
+
+                      <!-- Trinomio cuadrado perfecto-->
+                      <Label Text="3.4.3  Trinomio cuadrado perfecto" Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau3_img.png" Aspect="AspectFill"></Image>
+
+                      <!-- Binomios conjugados-->
+                      <Label Text="3.4.4 Binomios conjugados " Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau3_img.png" Aspect="AspectFill"></Image>
+
+                              
+
+
+                      
+                        
+                  </StackLayout>
+            </ScrollView>  
+         </Frame>
+
+
+
+
+    
 </ContentPage>
