@@ -4,37 +4,38 @@
              BackgroundColor="#DEDECA">
 
          <Frame BackgroundColor="White" CornerRadius="5" Margin="5">
-             <ScrollView>
-                  <StackLayout>
+             <StackLayout>
+                 <Label Text="Unidad 2. Exponentes y Radicales" Style="{StaticResource Lbl_TituloPrincipal}"/>
+                 <ScrollView>
+                      <StackLayout>
+                          <Label Text="2.1 Leyes de los exponentes y radicales" Style="{StaticResource Lbl_Subtitulos}"/>
+                            <Image Source="teoriau2_img1.png" Aspect="AspectFill"></Image>
+                            <Image Source="teoriau2_img2.png" Aspect="AspectFill"></Image>
+                            <Image Source="teoriau2_img3.png" Aspect="AspectFill"></Image>
 
-                    <Label Text="Unidad 2. Exponentes y Radicales" Style="{StaticResource Lbl_TituloPrincipal}"/>
-                      <Label Text="2.1 Leyes de los exponentes y radicales" Style="{StaticResource Lbl_Subtitulos}"/>
-                        <Image Source="teoriau2_img1.png" Aspect="AspectFill"></Image>
-                        <Image Source="teoriau2_img2.png" Aspect="AspectFill"></Image>
-                        <Image Source="teoriau2_img3.png" Aspect="AspectFill"></Image>
+                          <!-- Reglas para trabajar con exponentes-->
+                          <Image Source="teoriau2_img4.png" Aspect="AspectFill"></Image>
+                          <Image Source="teoriau2_img5.png" Aspect="AspectFill"></Image>
+                          <Image Source="teoriau2_img6.png" Aspect="AspectFill"></Image>
 
-                      <!-- Reglas para trabajar con exponentes-->
-                      <Image Source="teoriau2_img4.png" Aspect="AspectFill"></Image>
-                      <Image Source="teoriau2_img5.png" Aspect="AspectFill"></Image>
-                      <Image Source="teoriau2_img6.png" Aspect="AspectFill"></Image>
+                          <!--Notación cientifica-->
+                          <Image Source="teoriau2_img7.png" Aspect="AspectFill"></Image>
+                          <Image Source="teoriau2_img8.png" Aspect="AspectFill"></Image>
 
-                      <!--Notación cientifica-->
-                      <Image Source="teoriau2_img7.png" Aspect="AspectFill"></Image>
-                      <Image Source="teoriau2_img8.png" Aspect="AspectFill"></Image>
+                          <!--Radicales-->
+                          <Image Source="teoriau2_img9.png" Aspect="AspectFill"></Image>
+                          <Image Source="teoriau2_img10.png" Aspect="AspectFill"></Image>
+                          <Image Source="teoriau2_img11.png" Aspect="AspectFill"></Image>
 
-                      <!--Radicales-->
-                      <Image Source="teoriau2_img9.png" Aspect="AspectFill"></Image>
-                      <Image Source="teoriau2_img10.png" Aspect="AspectFill"></Image>
-                      <Image Source="teoriau2_img11.png" Aspect="AspectFill"></Image>
+                          <!--Exponentes racionales-->
+                          <Image Source="teoriau2_img12.png" Aspect="AspectFill"></Image>
 
-                      <!--Exponentes racionales-->
-                      <Image Source="teoriau2_img12.png" Aspect="AspectFill"></Image>
-
-                      <!--Racionalización del denominador-->
-                      <Image Source="teoriau2_img13.png" Aspect="AspectFill"></Image>
-                      <Image Source="teoriau2_img14.png" Aspect="AspectFill"></Image>
+                          <!--Racionalización del denominador-->
+                          <Image Source="teoriau2_img13.png" Aspect="AspectFill"></Image>
+                          <Image Source="teoriau2_img14.png" Aspect="AspectFill"></Image>
                         
-                  </StackLayout>
-            </ScrollView>  
+                      </StackLayout>
+                </ScrollView>
+             </StackLayout>     
          </Frame>
 </ContentPage>

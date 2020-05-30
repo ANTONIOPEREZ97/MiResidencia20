@@ -2,8 +2,24 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MiResidencia20.Views.Teorias.TUnidad6Page">
 
-    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-        <Label Text="unidad 6 Teoría"/>
-    </StackLayout>
-
+    <Frame BackgroundColor="White" CornerRadius="5" Margin="5">
+             <StackLayout>
+               <Label Text="Unidad 6. Modelado con Ecuaciones" Style="{StaticResource Lbl_TituloPrincipal}"/>
+                <ScrollView>
+                  <StackLayout>
+                      <!-- Construcción del modelado-->
+                      <Label Text="5.1. Construcción del modelado" Style="{StaticResource Lbl_Subtitulos}" Margin="0" Padding="0"/>
+                      <Image Source="teoriau6_img1.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau6_img2.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau6_img3.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau6_img4.png" Aspect="AspectFill"></Image>
+                      
+                      <!-- Usos de modelos-->
+                      <Label Text="4.2. Usos de modelos" Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau6_img5.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau6_img6.png" Aspect="AspectFill"></Image>
+                  </StackLayout>
+                </ScrollView>
+           </StackLayout>      
+     </Frame>
 </ContentPage>

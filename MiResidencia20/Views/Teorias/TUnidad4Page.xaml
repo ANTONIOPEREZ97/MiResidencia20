@@ -2,8 +2,31 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MiResidencia20.Views.Teorias.TUnidad4Page">
 
-    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-        <Label Text="unidad 4 Teoría"/>
-    </StackLayout>
+   <Frame BackgroundColor="White" CornerRadius="5" Margin="5">
+             <StackLayout>
+               <Label Text="Unidad 4. Expresiones Racionales" Style="{StaticResource Lbl_TituloPrincipal}"/>
+                <ScrollView>
+                  <StackLayout>
+                      <Image Source="teoriau4_img1.png" Aspect="AspectFill"></Image>
+                      <!-- Sumas y restas-->
+                      <Label Text="4.1. Sumas y restas" Style="{StaticResource Lbl_Subtitulos}" Margin="0" Padding="0"/>
+                      <Image Source="teoriau4_img2.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau4_img3.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau4_img4.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau4_img5.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau4_img6.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau4_img7.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau4_img8.png" Aspect="AspectFill"></Image>
 
+                      <!-- Fracciones complejas-->
+                      <Label Text="4.2. Fracciones complejas" Style="{StaticResource Lbl_Subtitulos}"/>
+                      <Image Source="teoriau1_img9.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau4_img10.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau4_img11.png" Aspect="AspectFill"></Image>
+                      <Image Source="teoriau4_img12.png" Aspect="AspectFill"></Image>
+
+                  </StackLayout>
+                </ScrollView>
+           </StackLayout>      
+         </Frame>
 </ContentPage>
