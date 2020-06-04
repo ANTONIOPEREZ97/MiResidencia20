@@ -6003,10 +6003,79 @@ namespace MiResidencia20.Droid
 			public const int teoriau7_img9 = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int tooltip_frame_dark = 2131165372;
+			public const int teoriau8_img1 = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int tooltip_frame_light = 2131165373;
+			public const int teoriau8_img10 = 2131165373;
+			
+			// aapt resource value: 0x7F0700BE
+			public const int teoriau8_img11 = 2131165374;
+			
+			// aapt resource value: 0x7F0700BF
+			public const int teoriau8_img12 = 2131165375;
+			
+			// aapt resource value: 0x7F0700C0
+			public const int teoriau8_img13 = 2131165376;
+			
+			// aapt resource value: 0x7F0700C1
+			public const int teoriau8_img14 = 2131165377;
+			
+			// aapt resource value: 0x7F0700C2
+			public const int teoriau8_img15 = 2131165378;
+			
+			// aapt resource value: 0x7F0700C3
+			public const int teoriau8_img2 = 2131165379;
+			
+			// aapt resource value: 0x7F0700C4
+			public const int teoriau8_img3 = 2131165380;
+			
+			// aapt resource value: 0x7F0700C5
+			public const int teoriau8_img4 = 2131165381;
+			
+			// aapt resource value: 0x7F0700C6
+			public const int teoriau8_img5 = 2131165382;
+			
+			// aapt resource value: 0x7F0700C7
+			public const int teoriau8_img6 = 2131165383;
+			
+			// aapt resource value: 0x7F0700C8
+			public const int teoriau8_img7 = 2131165384;
+			
+			// aapt resource value: 0x7F0700C9
+			public const int teoriau8_img8 = 2131165385;
+			
+			// aapt resource value: 0x7F0700CA
+			public const int teoriau8_img9 = 2131165386;
+			
+			// aapt resource value: 0x7F0700CB
+			public const int teoriau9_img1 = 2131165387;
+			
+			// aapt resource value: 0x7F0700CC
+			public const int teoriau9_img2 = 2131165388;
+			
+			// aapt resource value: 0x7F0700CD
+			public const int teoriau9_img3 = 2131165389;
+			
+			// aapt resource value: 0x7F0700CE
+			public const int teoriau9_img4 = 2131165390;
+			
+			// aapt resource value: 0x7F0700CF
+			public const int teoriau9_img5 = 2131165391;
+			
+			// aapt resource value: 0x7F0700D0
+			public const int teoriau9_img6 = 2131165392;
+			
+			// aapt resource value: 0x7F0700D1
+			public const int teoriau9_img7 = 2131165393;
+			
+			// aapt resource value: 0x7F0700D2
+			public const int teoriau9_img8 = 2131165394;
+			
+			// aapt resource value: 0x7F0700D3
+			public const int tooltip_frame_dark = 2131165395;
+			
+			// aapt resource value: 0x7F0700D4
+			public const int tooltip_frame_light = 2131165396;
 			
 			static Drawable()
 			{
