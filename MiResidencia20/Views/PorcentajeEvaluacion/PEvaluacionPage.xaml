@@ -6,9 +6,7 @@
 
   <ScrollView>
     <StackLayout>
-
-
-        <StackLayout Margin="40">
+        <StackLayout Margin="10">
             <Label Text="Porcentajes de Evaluación" Style="{StaticResource Lbl_TituloPrincipal}"/>
         </StackLayout>
 
@@ -25,8 +23,6 @@
                         <RowDefinition></RowDefinition>
                         <RowDefinition></RowDefinition>
                         <RowDefinition></RowDefinition>
-                       
-
                  </Grid.RowDefinitions>
 
                   <!--Defino Columnas-->

@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MiResidencia20.Views.RegistroPage" Title="Registrar Usuario">
     <ScrollView>
-    <StackLayout Padding="30,90">
-        <Label Text="Usuario"/>
+        <StackLayout Padding="30,90">
+        <Label Text="Usuario"/> 
         <Frame><Entry Placeholder="Nombre de Usuario" Keyboard="Text" x:Name="UsuarioEntry"/></Frame>
 
         <Label Text="Carrera"/>
@@ -14,11 +14,10 @@
         
         <Label Text="Periodo"/>
         <Frame><Entry Placeholder="ENE-JUN/2020" Keyboard="Text" x:Name="periodoEntry"/></Frame>
-
-          <StackLayout Padding="90,30">
-            <Button Text="Registrarse" Clicked="Btn_Registrar"  Command="{Binding Btn_RegistrarCommand}"/>
-          </StackLayout>
         
-    </StackLayout>
-    </ScrollView>
+         <StackLayout Padding="90,30">
+           <Button Text="Registrarse" Clicked="Btn_Registrar"  Command="{Binding Btn_RegistrarCommand}"/>
+         </StackLayout>
+       </StackLayout>
+  </ScrollView>
 </ContentPage>
