@@ -1,8 +1,46 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MiResidencia20.Views.Ejercicios.EUnidad1Page">
+             x:Class="MiResidencia20.Views.Ejercicios.EUnidad1Page"
+             Title="Ejercicios">
 
-    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-        <Label Text="unidad 1 Ejercicios"/>
-    </StackLayout>
+  <StackLayout Margin="5" BackgroundColor="White">
+      <Label Text="Unidad I. Números Reales" Style="{StaticResource Lbl_TituloPrincipal}"/>
+       <ScrollView>
+            <StackLayout>
+                
+
+                <Frame BackgroundColor="White"  Margin="3" CornerRadius="3" BorderColor="#C4ECE7">
+                    <StackLayout>
+                        <Grid ColumnDefinitions="*,*,*" RowDefinitions="*,*,*"/>
+                        <Label Text="1.Son aquellos que no necesitan representarse como una fracción o un decimal. Además no pueden ser negativos:" TextColor="Black" FontAttributes="None" FontSize="14"/>
+                        <CheckBox Grid.Column="0" Grid.Row="0"/><Label Text="Hola 1" Grid.Column="1" Grid.Row="0"/>
+                        <CheckBox/> <Label Text="Hola 2"/>
+                        <CheckBox/> <Label Text="Hola 3"/>
+                        <CheckBox/> <Label Text="Hola 4"/>
+                    </StackLayout>
+                </Frame>
+
+                <!--<Frame BackgroundColor="White"  Margin="3" CornerRadius="3" BorderColor="#B0CFF4">
+                    <StackLayout>
+                        <Label Text="4.Son aquellos que no necesitan representarse como una fracción o un decimal. Además no pueden ser negativos:" TextColor="Black" FontAttributes="None" FontSize="14"/>
+                        <CheckBox></CheckBox> 
+                        <CheckBox></CheckBox> 
+                        <CheckBox></CheckBox>
+                        <CheckBox></CheckBox>
+                    </StackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="White"  Margin="3" CornerRadius="3" BorderColor="#F99F8A">
+                    <StackLayout>
+                        <Label Text="4.Son aquellos que no necesitan representarse como una fracción o un decimal. Además no pueden ser negativos:" TextColor="Black" FontAttributes="None" FontSize="14"/>
+                        <CheckBox></CheckBox> 
+                        <CheckBox></CheckBox> 
+                        <CheckBox></CheckBox>
+                        <CheckBox></CheckBox>
+                    </StackLayout>
+                </Frame>-->
+
+           </StackLayout>
+     </ScrollView>
+  </StackLayout>
 </ContentPage>

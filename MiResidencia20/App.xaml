@@ -4,90 +4,86 @@
     <Application.Resources>
         <ResourceDictionary>
 
-              
-            <!-- Titulos Principales -->
+            <!--Todos los estilo de la AppMatemaâticas 2020 ENE-JUNIO-->
+
+            <!-- Titulos Principales-->
             <Style TargetType="Label" x:Key="Lbl_TituloPrincipal">
-                <Setter Property="FontSize" Value="18">  </Setter>
-                <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
-                <Setter Property="VerticalTextAlignment" Value="center"></Setter>
-                <Setter Property="FontAttributes" Value="Bold"></Setter>
-                
+              <Setter Property="FontSize" Value="18">  </Setter>
+              <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
+              <Setter Property="VerticalTextAlignment" Value="center"></Setter>
+              <Setter Property="FontAttributes" Value="Bold"></Setter>
             </Style>
 
             <!--1.Botones  Globales-->
             <Style TargetType="Button">
-                  <Setter Property="BackgroundColor" Value="#1E4D7E" ></Setter>
-                  <Setter Property="TextColor"       Value="White"></Setter>
-                  <Setter Property="CornerRadius"    Value="0"></Setter>
-                <Setter Property="HeightRequest"     Value="40"></Setter>
-                <Setter Property="FontAttributes"    Value="Bold"></Setter>
+              <Setter Property="BackgroundColor" Value="#1E4D7E" ></Setter>
+              <Setter Property="TextColor"       Value="White"></Setter>
+              <Setter Property="CornerRadius"    Value="0"></Setter>
+              <Setter Property="HeightRequest"   Value="40"></Setter>
+              <Setter Property="FontAttributes"  Value="Bold"></Setter>
             </Style>
-
             
-             <!--2.Label -->
+            <!--2.Label-->
             <Style TargetType="Label">
-                 <Setter Property="FontAttributes" Value="Bold"></Setter>
-                 <Setter Property="TextColor" Value="#1E4D7E"></Setter>
+              <Setter Property="FontAttributes" Value="Bold"></Setter>
+              <Setter Property="TextColor" Value="#1E4D7E"></Setter>
             </Style>
 
-              <!--3.Frames -->
+            <!--3.Frames-->
             <Style TargetType="Frame">
-                <Setter Property="HasShadow"       Value="True"></Setter>
-                <Setter Property="Padding"         Value="0,1,0,0"></Setter>
+              <Setter Property="HasShadow"  Value="True"></Setter>
+              <Setter Property="Padding"    Value="0,1,0,0"></Setter>
             </Style>
 
               <!-- 4.Entrys -->
             <Style TargetType="Entry">
-                <Setter Property="BackgroundColor" Value="#E8F0FE"></Setter>
-                 <Setter Property="WidthRequest"      Value="275"></Setter>
-                 <Setter Property="HeightRequest"     Value="50"></Setter>
+              <Setter Property="BackgroundColor" Value="#E8F0FE"></Setter>
+              <Setter Property="WidthRequest"    Value="275"></Setter>
+              <Setter Property="HeightRequest"   Value="50"></Setter>
             </Style>
 
 
-                <!-- Vista de Porcentaje de Evaluación-->
+             <!-- Vista de Porcentaje de Evaluación-->
              <!-- 5.Labels Cabeceras VerPorcentajes-->
-                <Style TargetType="Label" x:Key="Lbl_Cabecera">
-                    <Setter Property="VerticalTextAlignment" Value="Center"></Setter>
-                    <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
-                    <Setter Property="TextColor" Value="#FFFF66"></Setter>
-                    <Setter Property="BackgroundColor" Value="#1E4D7E"></Setter>
-                    <Setter Property="FontAttributes" Value="Bold"></Setter> 
-                </Style>
+            <Style TargetType="Label" x:Key="Lbl_Cabecera">
+              <Setter Property="VerticalTextAlignment"  Value="Center"></Setter>
+              <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
+              <Setter Property="TextColor" Value="#FFFF66"></Setter>
+              <Setter Property="BackgroundColor" Value="#1E4D7E"></Setter>
+              <Setter Property="FontAttributes" Value="Bold"></Setter> 
+            </Style>
 
-            <!-- 5.1 Labels  Unidades VerPorcentajes-->
-                <Style TargetType="Label" x:Key="Lbl_Unidad">
-                    <Setter Property="VerticalTextAlignment" Value="Center"></Setter>
-                    <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
-                    <Setter Property="TextColor" Value="#ff9800"></Setter>
-                    <Setter Property="BackgroundColor" Value="#EEEEEE"></Setter>
-                    <Setter Property="FontAttributes" Value="Bold"></Setter> 
-                </Style>
+             <!-- 5.1 Labels  Unidades VerPorcentajes-->
+            <Style TargetType="Label" x:Key="Lbl_Unidad">
+              <Setter Property="VerticalTextAlignment" Value="Center"></Setter>
+              <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
+              <Setter Property="TextColor" Value="#ff9800"></Setter>
+              <Setter Property="BackgroundColor" Value="#EEEEEE"></Setter>
+              <Setter Property="FontAttributes" Value="Bold"></Setter> 
+            </Style>
 
-              <!--6.Contenido de Teorías-->
-            <!--6.1 Subtitulos -->
+            <!--6.Contenido de Teorías-->
+            <!--6.1 Subtitulos-->
             <Style TargetType="Label" x:Key="Lbl_Subtitulos">
-                <Setter Property="FontSize" Value="12">  </Setter>
-                <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
-                <Setter Property="VerticalTextAlignment" Value="Start"></Setter>
-                <Setter Property="FontAttributes" Value="Bold"></Setter>
-                <Setter Property="TextColor" Value="#ff9800"></Setter>
+              <Setter Property="FontSize" Value="12">  </Setter>
+              <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
+              <Setter Property="VerticalTextAlignment" Value="Start"></Setter>
+              <Setter Property="FontAttributes" Value="Bold"></Setter>
+               <Setter Property="TextColor" Value="#ff9800"></Setter>
             </Style>
 
-            <!--6.2 Contenido -->
+            <!--6.2 Contenido-->
             <Style TargetType="Label" x:Key="Lbl_tituloSubtema">
-                <Setter Property="FontSize" Value="10">  </Setter>
-               <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
-                <Setter Property="VerticalTextAlignment" Value="Start"></Setter>
-                <Setter Property="FontAttributes" Value="Bold"></Setter>
-                <Setter Property="TextColor" Value="Black"></Setter>
+              <Setter Property="FontSize" Value="10">  </Setter>
+              <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
+              <Setter Property="VerticalTextAlignment" Value="Start"></Setter>
+              <Setter Property="FontAttributes" Value="Bold"></Setter>
+              <Setter Property="TextColor" Value="Black"></Setter>
             </Style>
-            
 
-              <!--7.Contenido de Ejercicios-->
+            <!--7.Contenido de Ejercicios-->
 
-              <!--8.Contenido de Juegos-->
-
-            
+            <!--8.Contenido de Juegos-->
         </ResourceDictionary>
     </Application.Resources>
 </Application>
