@@ -62,7 +62,7 @@
               <Setter Property="FontAttributes" Value="Bold"></Setter> 
             </Style>
 
-            <!--6.Contenido de Teorías-->
+            <!--6.Estilos de Teorías-->
             <!--6.1 Subtitulos-->
             <Style TargetType="Label" x:Key="Lbl_Subtitulos">
               <Setter Property="FontSize" Value="12">  </Setter>
@@ -81,7 +81,20 @@
               <Setter Property="TextColor" Value="Black"></Setter>
             </Style>
 
-            <!--7.Contenido de Ejercicios-->
+            <!--7  Estilos de Ejercicios-->
+            <!--7.1  Pregunta-->
+            <!--<Style TargetType="Label" x:Key="Lbl_pregunta">
+              <Setter Property="FontSize" Value="14"/>
+              <Setter Property="FontAttributes" Value="None"/>
+              <Setter Property="TextColor" Value="Black"/>
+            </Style>
+
+            7.2  Respuestas checks
+            <Style TargetType="Label" x:Key="Lbl_respuestaCheck">
+              <Setter Property="HorizontalOptions" Value="Start"/>
+              <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+              <Setter Property="Margin" Value="35,0"/>
+            </Style>-->
 
             <!--8.Contenido de Juegos-->
         </ResourceDictionary>

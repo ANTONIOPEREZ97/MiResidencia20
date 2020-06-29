@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace MiResidencia20.Views.Ejercicios
 {
-    public partial class EUnidad1Page : ContentPage
+    public partial class EjercicioU1Page : ContentPage
     {
-        public EUnidad1Page()
+        public EjercicioU1Page()
         {
             InitializeComponent();
         }
