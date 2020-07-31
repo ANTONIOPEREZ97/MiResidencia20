@@ -18,6 +18,11 @@
                       <Label Text="4.2. Usos de modelos" Style="{StaticResource Lbl_Subtitulos}"/>
                       <Image Source="teoriau6_img5.png" Aspect="AspectFill"></Image>
                       <Image Source="teoriau6_img6.png" Aspect="AspectFill"></Image>
+
+                      <StackLayout Padding="90,30">
+                      <Button Text="Ejercicios" Clicked="Btn_irAEjerciciosU6"/>
+                      </StackLayout>
+
                   </StackLayout>
                 </ScrollView>
            </StackLayout>      

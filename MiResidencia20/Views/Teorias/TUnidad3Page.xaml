@@ -54,7 +54,12 @@
 
                         <!-- Binomios conjugados-->
                         <Label Text="3.4.4 Binomios conjugados " Style="{StaticResource Lbl_Subtitulos}"/>
-                        <Image Source="teoriau3_img.png" Aspect="AspectFill"></Image>      
+                        <Image Source="teoriau3_img.png" Aspect="AspectFill"></Image>
+
+                         <StackLayout Padding="90,30">
+                         <Button Text="Ejercicios" Clicked="Btn_irAEjerciciosU3"/>
+                         </StackLayout>
+
                       </StackLayout>
                 </ScrollView>
            </StackLayout>    

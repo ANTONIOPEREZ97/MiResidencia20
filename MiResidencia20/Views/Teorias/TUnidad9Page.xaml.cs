@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using MiResidencia20.Views.Ejercicios;
 
 namespace MiResidencia20.Views.Teorias
 {
@@ -10,6 +11,11 @@ namespace MiResidencia20.Views.Teorias
         public TUnidad9Page()
         {
             InitializeComponent();
+        }
+
+        void Btn_irAEjerciciosU9(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new EUnidad9Page());
         }
     }
 }

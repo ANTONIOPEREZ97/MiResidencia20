@@ -31,9 +31,10 @@
                       <Label Text="Conjuntos e intervalos" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
                       <Image Source="teoriau1_img7.png" Aspect="AspectFill"></Image>
 
-                      <StackLayout Padding="90,30">
-                        <Button Text="Ejercicios ->" Clicked="Btn_irAEjerciciosU1"/>
+                        <StackLayout Padding="90,30">
+                        <Button Text="Ejercicios" Clicked="Btn_irAEjerciciosU1"/>
                         </StackLayout>
+
                       </StackLayout>
                 </ScrollView>
            </StackLayout>      

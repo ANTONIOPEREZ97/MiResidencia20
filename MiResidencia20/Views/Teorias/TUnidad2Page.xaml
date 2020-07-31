@@ -33,7 +33,11 @@
                           <!--Racionalización del denominador-->
                           <Image Source="teoriau2_img13.png" Aspect="AspectFill"></Image>
                           <Image Source="teoriau2_img14.png" Aspect="AspectFill"></Image>
-                        
+
+                         <StackLayout Padding="90,30">
+                         <Button Text="Ejercicios" Clicked="Btn_irAEjerciciosU2"/>
+                         </StackLayout>
+
                       </StackLayout>
                 </ScrollView>
              </StackLayout>     

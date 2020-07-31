@@ -28,6 +28,11 @@
                       <Image Source="teoriau7_img10.png" Aspect="AspectFill"></Image>
                       <Image Source="teoriau7_img11.png" Aspect="AspectFill"></Image>
                       <Image Source="teoriau7_img12.png" Aspect="AspectFill"></Image>
+
+                      <StackLayout Padding="90,30">
+                      <Button Text="Ejercicios" Clicked="Btn_irAEjerciciosU7"/>
+                      </StackLayout>
+
                   </StackLayout>
                 </ScrollView>
            </StackLayout>      

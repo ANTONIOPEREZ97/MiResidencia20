@@ -25,6 +25,10 @@
                       <Image Source="teoriau4_img11.png" Aspect="AspectFill"></Image>
                       <Image Source="teoriau4_img12.png" Aspect="AspectFill"></Image>
 
+                      <StackLayout Padding="90,30">
+                      <Button Text="Ejercicios" Clicked="Btn_irAEjerciciosU4"/>
+                      </StackLayout>
+
                   </StackLayout>
                 </ScrollView>
            </StackLayout>      
