@@ -28,7 +28,6 @@
                       <Button Text="Ejercicios" Clicked="Btn_irAEjerciciosU9"/>
                       </StackLayout>
 
-
                   </StackLayout>
                 </ScrollView>
            </StackLayout>      
