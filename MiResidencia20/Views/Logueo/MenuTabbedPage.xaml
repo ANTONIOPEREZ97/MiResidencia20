@@ -3,7 +3,8 @@
             x:Class="MiResidencia20.Views.Logueo.MenuTabbedPage"
             BarBackgroundColor="WhiteSmoke"
             BarTextColor="Black"
-            Title="Menú">
+            Title="AppMatemáticas">
+
      <TabbedPage.Children>
             <ContentPage Title="Teoría" IconImageSource="ico_teoria.png">
                 <ScrollView>

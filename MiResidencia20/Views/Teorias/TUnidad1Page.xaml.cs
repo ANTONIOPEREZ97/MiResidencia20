@@ -18,5 +18,11 @@ namespace MiResidencia20.Views.Teorias
              Navigation.PushAsync(new EjercicioU1Page());
 
         }
+
+        void  Btn_irAVideoTuturial(System.Object sender, System.EventArgs e)
+        {
+          
+
+        }
     }
 }

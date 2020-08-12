@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MiResidencia20.Views.Teorias.TUnidad1Page"
-             BackgroundColor="#DEDECA">
+             BackgroundColor="#DEDECA"
+             Title="Teoría">
 
          <Frame BackgroundColor="White" CornerRadius="5" Margin="5">
              <StackLayout>
@@ -15,27 +16,36 @@
                       <Label Text="1.2. Propiedades de los números reales(axiomas)" Style="{StaticResource Lbl_Subtitulos}"/>
                       <Image Source="teoriau1_img3.png" Aspect="AspectFill"></Image>
 
-                       <!--Adición y sustracción-->
+                      <!--Adición y sustracción-->
                       <Label Text="Adición y sustracción" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
                       <Image Source="teoriau1_img4.png" Aspect="AspectFill"></Image>
 
-                       <!--Multiplicación y División-->
+                      <!--Multiplicación y División-->
                       <Label Text="Multiplicación y División" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
                       <Image Source="teoriau1_img5.png" Aspect="AspectFill"></Image>
 
-                       <!--La recta real-->
+                      <!--La recta real-->
                       <Label Text="La recta real" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
                       <Image Source="teoriau1_img6.png" Aspect="AspectFill"></Image>
 
-                       <!--Conjuntos e intervalos-->
+                      <!--Conjuntos e intervalos-->
                       <Label Text="Conjuntos e intervalos" Style="{StaticResource Lbl_tituloSubtema}" Margin="0" Padding="0"/>
                       <Image Source="teoriau1_img7.png" Aspect="AspectFill"></Image>
 
-                        <StackLayout Padding="90,30">
-                        <Button Text="Ejercicios" Clicked="Btn_irAEjerciciosU1"/>
-                        </StackLayout>
+                      <Grid Margin="20,20">
+                          <Grid.RowDefinitions>
+                            <RowDefinition/>
+                          </Grid.RowDefinitions>
 
-                      </StackLayout>
+                          <Grid.ColumnDefinitions>
+                           <ColumnDefinition/>
+                           <ColumnDefinition/>
+                          </Grid.ColumnDefinitions>
+                        
+                        <Button Text="Video Tutorial" Clicked="Btn_irAVideoTuturial" Grid.Row="0" Grid.Column="0"/> 
+                        <Button Text="Ejercicios" Clicked="Btn_irAEjerciciosU1" Grid.Row="0" Grid.Column="1"/> 
+                      </Grid>       
+                </StackLayout>
                 </ScrollView>
            </StackLayout>      
          </Frame>

@@ -17,7 +17,7 @@
             <!--1.Botones  Globales-->
             <Style TargetType="Button">
               <Setter Property="BackgroundColor" Value="#1E4D7E" ></Setter>
-              <Setter Property="TextColor"       Value="White"></Setter>
+              <Setter Property="TextColor"       Value="Yellow"></Setter>
               <Setter Property="CornerRadius"    Value="0"></Setter>
               <Setter Property="HeightRequest"   Value="40"></Setter>
               <Setter Property="FontAttributes"  Value="Bold"></Setter>
@@ -83,18 +83,20 @@
 
             <!--7  Estilos de Ejercicios-->
             <!--7.1  Pregunta-->
-            <!--<Style TargetType="Label" x:Key="Lbl_pregunta">
+            <Style TargetType="Label" x:Key="Lbl_pregunta">
               <Setter Property="FontSize" Value="14"/>
               <Setter Property="FontAttributes" Value="None"/>
               <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="LineBreakMode" Value="WordWrap"/>
+
             </Style>
 
-            7.2  Respuestas checks
+            <!-- 7.2  Respuestas checks-->
             <Style TargetType="Label" x:Key="Lbl_respuestaCheck">
               <Setter Property="HorizontalOptions" Value="Start"/>
               <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
               <Setter Property="Margin" Value="35,0"/>
-            </Style>-->
+            </Style>
 
             <!--8.Contenido de Juegos-->
         </ResourceDictionary>

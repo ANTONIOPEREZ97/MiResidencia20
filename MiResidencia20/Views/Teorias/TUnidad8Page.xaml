@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MiResidencia20.Views.Teorias.TUnidad8Page">
+             x:Class="MiResidencia20.Views.Teorias.TUnidad8Page"
+             Title="Teoría">
+
+
     <Frame BackgroundColor="White" CornerRadius="5" Margin="5">
              <StackLayout>
                <Label Text="Unidad 8.Logaritmos y Exponenciales" Style="{StaticResource Lbl_TituloPrincipal}"/>
@@ -34,9 +37,19 @@
                       <Image Source="teoriau8_img15.png" Aspect="AspectFill"></Image>
                       <Image Source="teoriau8_img16.png" Aspect="AspectFill"></Image>
 
-                      <StackLayout Padding="90,30">
-                      <Button Text="Ejercicios" Clicked="Btn_irAEjerciciosU8"/>
-                      </StackLayout>
+                      <Grid Margin="20,20">
+                          <Grid.RowDefinitions>
+                            <RowDefinition/>
+                          </Grid.RowDefinitions>
+
+                          <Grid.ColumnDefinitions>
+                           <ColumnDefinition/>
+                           <ColumnDefinition/>
+                          </Grid.ColumnDefinitions>
+                        
+                        <Button Text="Video Tutorial" Clicked="Btn_irAVideoTuturial"  Grid.Row="0" Grid.Column="0"/> 
+                        <Button Text="Ejercicios" Clicked="Btn_irAEjerciciosU8" Grid.Row="0" Grid.Column="1"/> 
+                      </Grid>
 
                   </StackLayout>
                 </ScrollView>
