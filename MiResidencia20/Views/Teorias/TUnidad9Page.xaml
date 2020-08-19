@@ -6,7 +6,7 @@
 
     <Frame BackgroundColor="White" CornerRadius="5" Margin="5">
              <StackLayout>
-               <Label Text="Unidad 9.Trinometría de Triángulos Rectángulos" Style="{StaticResource Lbl_TituloPrincipal}" HorizontalOptions="StartAndExpand"/>
+               <Label Text="Unidad 9.Trigonometría de Triángulos Rectángulos" Style="{StaticResource Lbl_TituloPrincipal}" HorizontalOptions="StartAndExpand"/>
                 <ScrollView>
                   <StackLayout>
                       <!-- Funciones trigonométricas <9.2>-->
@@ -39,6 +39,12 @@
                         <Button Text="Video Tutorial" Clicked="Btn_irAVideoTuturial" Grid.Row="0" Grid.Column="0"/> 
                         <Button Text="Ejercicios" Clicked="Btn_irAEjerciciosU9" Grid.Row="0" Grid.Column="1"/> 
                       </Grid>
+
+                      <!--WebView: Video tutorial-->
+                        <WebView x:Name="WebView" VerticalOptions="FillAndExpand"
+                                Source="https://www.youtube.com/watch?v=nGS1glnproM"
+                                Navigated="WebView_Navigated">
+                        </WebView>
                   </StackLayout>
                 </ScrollView>
            </StackLayout>      

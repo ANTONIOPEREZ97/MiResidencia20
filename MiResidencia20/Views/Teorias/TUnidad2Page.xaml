@@ -48,6 +48,12 @@
                         <Button Text="Video Tutorial" Clicked="Btn_irAVideoTuturial" Grid.Row="0" Grid.Column="0"/> 
                         <Button Text="Ejercicios" Clicked="Btn_irAEjerciciosU2" Grid.Row="0" Grid.Column="1"/> 
                       </Grid>
+
+                          <!--WebView: video tutorial-->
+                          <WebView x:Name="WebView" VerticalOptions="FillAndExpand"
+                                   Source="https://www.youtube.com/watch?v=6jNWN-o0__Y"
+                                   Navigated="WebView_Navigated">
+                          </WebView>
                       </StackLayout>
                 </ScrollView>
              </StackLayout>     

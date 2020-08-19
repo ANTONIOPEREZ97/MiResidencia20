@@ -21,7 +21,7 @@ namespace MiResidencia20.Views
 
             if(usuario == null || carrera == null ||  grupo == null || periodo == null)//Validaciones de campos vacíos
             {
-                await DisplayAlert("Erro al registrarse", "Llene todos los campos!", "ok");
+                await DisplayAlert("Error al registrarse", "Llene todos los campos!", "ok");
             }
             else
             {

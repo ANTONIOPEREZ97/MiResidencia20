@@ -19,9 +19,17 @@ namespace MiResidencia20.Views.Teorias
 
         }
 
-        void  Btn_irAVideoTuturial(System.Object sender, System.EventArgs e)
+         public void Btn_irAVideoTuturial(System.Object sender, System.EventArgs e)
         {
-          
+            var anchura = 500;
+            WebView.HeightRequest = anchura; 
+            var meWebUnidad1 = WebView.Source;
+        }
+
+        public async void WebView_Navigated(System.Object sender, Xamarin.Forms.WebNavigatedEventArgs e)
+        {
+            var CanGoBack = WebView.CanGoBack;
+            await DisplayAlert("Navegando","Página Cargada", "Ok");
 
         }
     }
