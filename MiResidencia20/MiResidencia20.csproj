@@ -22,6 +22,10 @@
     <Folder Include="Views\Teorias\" />
     <Folder Include="Views\Ejercicios\" />
     <Folder Include="Views\PorcentajeEvaluacion\" />
+    <Folder Include="Views\Evaluaciones\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Views\Evaluaciones\EvalUnidad1Page.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Logueo\BienvenidaPage.xaml.cs">

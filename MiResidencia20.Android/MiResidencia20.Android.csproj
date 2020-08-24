@@ -94,7 +94,7 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\ico_evaluacion.png">
+    <AndroidResource Include="Resources\drawable\ico_evaluacionFinal.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
@@ -102,7 +102,7 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\ico_ejercicio.png">
+    <AndroidResource Include="Resources\drawable\ico_evaluacion.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
@@ -467,6 +467,14 @@
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\drawable\icon.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\ico_juego1.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\ico_teoria1.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>

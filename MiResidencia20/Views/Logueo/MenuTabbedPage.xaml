@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MiResidencia20.Views.PorcentajeEvaluacion"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:MiResidencia20.Views.PorcentajeEvaluacion"
             x:Class="MiResidencia20.Views.Logueo.MenuTabbedPage"
-            BarBackgroundColor="WhiteSmoke"
+            BarBackgroundColor="Transparent"
             BarTextColor="Black"
             Title="AppMatemáticas">
 
@@ -39,16 +40,45 @@
                 </ScrollView>
              </ContentPage>
 
-             <ContentPage Title="Juego" IconImageSource="ico_juego.png">
+             <ContentPage Title="Juego" IconImageSource="ico_juego1.png">
                 <StackLayout>
                     <Label Text="Mis videos"/>
                 </StackLayout>
             </ContentPage>
 
 
-            <ContentPage Title="Evaluación" IconImageSource="ico_ejercicio.png">
+            <ContentPage Title="Evaluación" IconImageSource="ico_evaluacion.png">
                 <StackLayout>
-                    <Label Text="Mis evaluaciones"/>
+                    <ScrollView>
+                   <!--Uso mis Grid-->
+                   <Grid Margin="10,10" RowSpacing="10">
+
+                       <!--Defino mis filas-->
+                            <Grid.RowDefinitions >
+                                <!--Difino mis filas a usar de 0-n-->
+                                <RowDefinition Height="95"/>
+                                <RowDefinition Height="95"/>
+                                <RowDefinition Height="95"/>
+                                <RowDefinition Height="95"/>
+                            </Grid.RowDefinitions>
+
+                           <!--Defino mis columnas-->
+                            <Grid.ColumnDefinitions>
+                               <ColumnDefinition/>
+                               <ColumnDefinition/>  
+                            </Grid.ColumnDefinitions>
+                       
+                            <Button Text=" Unidad 1"  Clicked="Btn_IrAEvaluacionU1" BackgroundColor="#FEC194"  CornerRadius="4" Grid.Row="0" Grid.Column="0"/>
+                            <Button Text=" Unidad 2"  Clicked="Btn_IrAEvaluacionU2" BackgroundColor="#00FFA9"  CornerRadius="4" Grid.Row="0" Grid.Column="1"/>
+                            <Button Text=" Unidad 3"  Clicked="Btn_IrAEvaluacionU3" BackgroundColor="#1FC9FD"  CornerRadius="4" Grid.Row="1" Grid.Column="0"/>
+                            <Button Text=" Unidad 4"  Clicked="Btn_IrAEvaluacionU4" BackgroundColor="#A32CDF"  CornerRadius="4" Grid.Row="1" Grid.Column="1"/> 
+                            <Button Text=" Unidad 5"  Clicked="Btn_IrAEvaluacionU5" BackgroundColor="#FFE53B"  CornerRadius="4" Grid.Row="2" Grid.Column="0"/> 
+                            <Button Text=" Unidad 6"  Clicked="Btn_IrAEvaluacionU6" BackgroundColor="#00C0FF"  CornerRadius="4" Grid.Row="2" Grid.Column="1"/> 
+                            <Button Text=" Unidad 7"  Clicked="Btn_IrAEvaluacionU7" BackgroundColor="#00FFFF"  CornerRadius="4" Grid.Row="3" Grid.Column="0"/>
+                            <Button Text=" Unidad 8"  Clicked="Btn_IrAEvaluacionU8" BackgroundColor="#FF0A6C"  CornerRadius="4" Grid.Row="3" Grid.Column="1"/> 
+                            <Button Text=" Unidad 9"  Clicked="Btn_IrAEvaluacionU9" BackgroundColor="#EAE5C9"  CornerRadius="4" Grid.Row="4" Grid.Column="0"/> 
+                   </Grid>
+                </ScrollView>
                 </StackLayout>
             </ContentPage>
          <!--
@@ -60,6 +90,6 @@
          -->
         </TabbedPage.Children>
 
-         <local:PEvaluacionPage/>
+      <local:PEvaluacionPage/>
       
 </TabbedPage>

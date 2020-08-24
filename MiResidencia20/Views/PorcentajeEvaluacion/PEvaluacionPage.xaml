@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MiResidencia20.Views.PorcentajeEvaluacion.PEvaluacionPage"
              Title="Calificación"
-             IconImageSource="ico_evaluacion.png">
+             IconImageSource="ico_evaluacionFinal.png">
 
   <ScrollView>
     <StackLayout>

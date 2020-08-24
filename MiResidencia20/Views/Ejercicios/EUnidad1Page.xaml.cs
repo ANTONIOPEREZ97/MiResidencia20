@@ -18,6 +18,15 @@ namespace MiResidencia20.Views.Ejercicios
 
         void Btn_calificar(System.Object sender, System.EventArgs e)
         {
+
+
+
+
         }
+
+
     }
+
+
+       
 }

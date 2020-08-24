@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MiResidencia20.Views.Teorias;
+using MiResidencia20.Views.Evaluaciones;
 
 namespace MiResidencia20.Views.Logueo
 {
@@ -15,6 +16,7 @@ namespace MiResidencia20.Views.Logueo
         {
             InitializeComponent();
         }
+
 
         #region Navigation Theories
 
@@ -63,6 +65,67 @@ namespace MiResidencia20.Views.Logueo
         {
             Navigation.PushAsync(new TUnidad9Page());
         }
+        #endregion
+
+
+
+        #region Navigation Evaluations
+
+        void Btn_IrAEvaluacionU1(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new EvalUnidad1Page());
+
+        }
+
+        void Btn_IrAEvaluacionU2(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new EvalUnidad2Page());
+
+        }
+
+        void Btn_IrAEvaluacionU3(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new EvalUnidad3Page());
+
+        }
+
+        void Btn_IrAEvaluacionU4(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new EvalUnidad4Page());
+
+        }
+
+        void Btn_IrAEvaluacionU5(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new EvalUnidad5Page());
+
+        }
+
+        void Btn_IrAEvaluacionU6(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new EvalUnidad6Page());
+
+        }
+
+        void Btn_IrAEvaluacionU7(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new EvalUnidad7Page());
+
+        }
+
+        void Btn_IrAEvaluacionU8(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new EvalUnidad8Page());
+
+        }
+
+        void Btn_IrAEvaluacionU9(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new EvalUnidad9Page());
+
+        }
+
+
         #endregion
     }
 }

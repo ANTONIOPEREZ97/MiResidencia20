@@ -18,7 +18,6 @@
                                 <RowDefinition/>
                                 <RowDefinition/>
                                 <RowDefinition/>
-                                <RowDefinition/>
                             </Grid.RowDefinitions>
 
                             <Grid.ColumnDefinitions>
@@ -26,10 +25,9 @@
                                <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
 
-                         <CheckBox Grid.Column="0" Grid.Row="0"/> <Label Text="Números irracionales" Grid.Column="1" Grid.Row="0"/>
-                         <CheckBox Grid.Column="0" Grid.Row="1"/> <Label Text="Números racionales"   Grid.Column="1" Grid.Row="1"/>
-                         <CheckBox Grid.Column="0" Grid.Row="2"/> <Label Text="Números naturales"    Grid.Column="1" Grid.Row="2"/>
-                         <CheckBox Grid.Column="0" Grid.Row="3"/> <Label Text="Números enteros"      Grid.Column="1" Grid.Row="3"/>
+                         <CheckBox Grid.Column="0" Grid.Row="0" x:Name="CheckA1"/> <Label Text="Números irracionales" Grid.Column="1" Grid.Row="0" />
+                         <CheckBox Grid.Column="0" Grid.Row="1" x:Name="CheckRB1"/> <Label Text="Números naturales"   Grid.Column="1" Grid.Row="1" />
+                         <CheckBox Grid.Column="0" Grid.Row="2" x:Name="CheckC1"/> <Label Text="Números enteros"      Grid.Column="1" Grid.Row="2" />
                        </Grid>
                     </RelativeLayout>
 
@@ -38,7 +36,6 @@
                    <RelativeLayout>
                        <Grid>
                            <Grid.RowDefinitions >
-                                <RowDefinition/>
                                 <RowDefinition/>
                                 <RowDefinition/>
                                 <RowDefinition/>
@@ -51,8 +48,7 @@
 
                        <CheckBox Grid.Column="0" Grid.Row="0"/> <Label Text="Números enteros" Grid.Column="1" Grid.Row="0"/>
                        <CheckBox Grid.Column="0" Grid.Row="1"/> <Label Text="Números irracionales"  Grid.Column="1" Grid.Row="1"/>
-                       <CheckBox Grid.Column="0" Grid.Row="2"/> <Label Text="Números racionales"    Grid.Column="1" Grid.Row="2"/>
-                       <CheckBox Grid.Column="0" Grid.Row="3"/> <Label Text="Números naturales"     Grid.Column="1" Grid.Row="3"/>
+                       <CheckBox Grid.Column="0" Grid.Row="2"/> <Label Text="Números naturales"     Grid.Column="1" Grid.Row="2"/>
                      </Grid>
                     </RelativeLayout>
 
@@ -61,7 +57,6 @@
                    <RelativeLayout>
                        <Grid>
                            <Grid.RowDefinitions >
-                                <RowDefinition/>
                                 <RowDefinition/>
                                 <RowDefinition/>
                                 <RowDefinition/>
@@ -74,8 +69,7 @@
 
                        <CheckBox Grid.Column="0" Grid.Row="0"/> <Label Text="Números naturales" Grid.Column="1" Grid.Row="0"/>
                        <CheckBox Grid.Column="0" Grid.Row="1"/> <Label Text="Números enteros"  Grid.Column="1" Grid.Row="1"/>
-                       <CheckBox Grid.Column="0" Grid.Row="2"/> <Label Text="Números racionales"    Grid.Column="1" Grid.Row="2"/>
-                       <CheckBox Grid.Column="0" Grid.Row="3"/> <Label Text="Números irracionales"     Grid.Column="1" Grid.Row="3"/>
+                       <CheckBox Grid.Column="0" Grid.Row="2"/> <Label Text="Números irracionales"     Grid.Column="1" Grid.Row="2"/>
                      </Grid>
                    </RelativeLayout>
 
