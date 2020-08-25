@@ -40,7 +40,7 @@
                 </ScrollView>
              </ContentPage>
 
-             <ContentPage Title="Juego" IconImageSource="ico_juego1.png">
+             <ContentPage Title="Juego" IconImageSource="ico_juego.png">
                 <StackLayout>
                     <Label Text="Mis videos"/>
                 </StackLayout>
