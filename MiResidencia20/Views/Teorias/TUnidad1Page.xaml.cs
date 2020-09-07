@@ -15,7 +15,7 @@ namespace MiResidencia20.Views.Teorias
 
         void Btn_irAEjerciciosU1(System.Object sender, System.EventArgs e)
         {
-             Navigation.PushAsync(new EjercicioU1Page());
+             Navigation.PushAsync(new EUnidad1Page());
 
         }
 

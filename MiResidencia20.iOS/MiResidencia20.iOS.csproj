@@ -134,9 +134,15 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\tecnm.png" />
-    <BundleResource Include="Resources\ico_video.png" />
-    <BundleResource Include="Resources\ico_ejercicio.png" />
-    <BundleResource Include="Resources\ico_evaluacion.png" />
-    <BundleResource Include="Resources\teoria.png" />
+    <BundleResource Include="Resources\icono_Evaluacion.png" />
+    <BundleResource Include="Resources\icono_Juego.png" />
+    <BundleResource Include="Resources\icono_Revaluacion.png" />
+    <BundleResource Include="Resources\icono_Teoria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\icon.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
 </Project>

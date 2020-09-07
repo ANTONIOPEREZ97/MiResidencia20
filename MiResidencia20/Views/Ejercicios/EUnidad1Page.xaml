@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MiResidencia20.Views.Ejercicios.EjercicioU1Page"
+             x:Class="MiResidencia20.Views.Ejercicios.EUnidad1Page"
              Title="Ejercicio">
    
 <StackLayout Margin="5" BackgroundColor="White">
@@ -233,7 +233,7 @@
                           </Grid.ColumnDefinitions>
                         
                         <Button Text="Verificar"  Clicked="Btn_verificar" Grid.Row="0" Grid.Column="0"/> 
-                        <Button Text="Concluir"  Clicked="Btn_calificar" Grid.Row="0" Grid.Column="1"/> 
+                        <Button Text="Concluir"  Clicked="Btn_concluir" Grid.Row="0" Grid.Column="1"/> 
                       </Grid>    
 
                 </StackLayout>
