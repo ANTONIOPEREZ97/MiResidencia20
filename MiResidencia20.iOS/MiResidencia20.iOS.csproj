@@ -133,7 +133,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\tecnm.png" />
+    <BundleResource Include="Resources\TecNM.png" />
     <BundleResource Include="Resources\icono_Evaluacion.png" />
     <BundleResource Include="Resources\icono_Juego.png" />
     <BundleResource Include="Resources\icono_Revaluacion.png" />

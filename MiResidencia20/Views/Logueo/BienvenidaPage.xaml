@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MiResidencia20"
              x:Class="MiResidencia20.Views.BienvenidaPage" Title="Bienvenida">
+    <ScrollView>
+        <StackLayout Margin="30,40">
+            <Label Text="AppMatemáticas" FontAttributes="Bold" FontSize="Title" HorizontalOptions="CenterAndExpand" TextColor="#DEDECA" Margin="50"/>
+            <Image Source="TecNM.png" Aspect="AspectFill"></Image>
 
-    <StackLayout Margin="30,40">
-        <Label Text="AppMatemáticas" FontAttributes="Bold" FontSize="Title" HorizontalOptions="CenterAndExpand" TextColor="#DEDECA" Margin="50"/>
-        <Image Source="tecnm.png" Aspect="AspectFill"></Image>
-
-        <StackLayout Margin="60">
-            <Button Text="Crear Usuario" Clicked="Btn_IrARegistro" WidthRequest="45" HeightRequest="40"/>
+            <StackLayout Margin="60">
+                <Button Text="Crear Usuario" Clicked="Btn_IrARegistro" WidthRequest="45" HeightRequest="40"/>
+            </StackLayout>
         </StackLayout>
-    </StackLayout>
+    </ScrollView>
 </ContentPage>

@@ -4,7 +4,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace MiResidencia20
-{
+{ 
     //Espera el nombre de mi contenido Source
 
     [ContentProperty (nameof(Source))]
