@@ -62,6 +62,7 @@
               <Setter Property="FontAttributes" Value="Bold"></Setter> 
             </Style>
 
+
             <!--6.Estilos de Teorías-->
             <!--6.1 Subtitulos-->
             <Style TargetType="Label" x:Key="Lbl_Subtitulos">

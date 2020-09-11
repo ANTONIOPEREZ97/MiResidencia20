@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MiResidencia20.Views.Menu.TeoriasPage"
              Title="Teorías">
-
+             
     <ScrollView>
                    <!--Uso mis Grid-->
                    <Grid Margin="10,10" RowSpacing="10">
@@ -10,10 +10,10 @@
                        <!--Defino mis filas-->
                             <Grid.RowDefinitions >
                                 <!--Difino mis filas a usar de 0-n-->
-                                <RowDefinition Height="95"/>
-                                <RowDefinition Height="95"/>
-                                <RowDefinition Height="95"/>
-                                <RowDefinition Height="95"/>
+                                <RowDefinition Height="200"/>
+                                <RowDefinition Height="200"/>
+                                <RowDefinition Height="200"/>
+                                <RowDefinition Height="200"/>
                             </Grid.RowDefinitions>
 
                            <!--Defino mis columnas-->
@@ -21,16 +21,90 @@
                                <ColumnDefinition/>
                                <ColumnDefinition/>  
                             </Grid.ColumnDefinitions>
-                       
-                            <Button Text=" Unidad 1"  Clicked="Btn_IrAUnidad1" BackgroundColor="#FEC194" CornerRadius="4" Grid.Row="0" Grid.Column="0"/>
-                            <Button Text=" Unidad 2"  Clicked="Btn_IrAUnidad2" BackgroundColor="#00FFA9" CornerRadius="4" Grid.Row="0" Grid.Column="1"/>
-                            <Button Text=" Unidad 3"  Clicked="Btn_IrAUnidad3" BackgroundColor="#1FC9FD" CornerRadius="4" Grid.Row="1" Grid.Column="0"/>
-                            <Button Text=" Unidad 4"  Clicked="Btn_IrAUnidad4" BackgroundColor="#A32CDF" CornerRadius="4" Grid.Row="1" Grid.Column="1"/> 
-                            <Button Text=" Unidad 5"  Clicked="Btn_IrAUnidad5" BackgroundColor="#FFE53B" CornerRadius="4" Grid.Row="2" Grid.Column="0"/> 
-                            <Button Text=" Unidad 6"  Clicked="Btn_IrAUnidad6" BackgroundColor="#00C0FF" CornerRadius="4" Grid.Row="2" Grid.Column="1"/> 
-                            <Button Text=" Unidad 7"  Clicked="Btn_IrAUnidad7" BackgroundColor="#00FFFF" CornerRadius="4" Grid.Row="3" Grid.Column="0"/>
-                            <Button Text=" Unidad 8"  Clicked="Btn_IrAUnidad8" BackgroundColor="#FF0A6C" CornerRadius="4" Grid.Row="3" Grid.Column="1"/> 
-                            <Button Text=" Unidad 9"  Clicked="Btn_IrAUnidad9" BackgroundColor="#EAE5C9" CornerRadius="4" Grid.Row="4" Grid.Column="0"/> 
+
+ 
+                           <Frame  Grid.Column="0" Grid.Row="0" Margin="3">
+                               <StackLayout Padding="4">
+                               <Label Text="Unidad 1" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+                                   <Image Source="icono_Lectura.png" HeightRequest="100"></Image>
+                                   <Label  Text="Números reales" TextColor="Gray" FontSize="11" HorizontalOptions="CenterAndExpand"/>
+                                   <Button  Clicked="Btn_IrAUnidad1" Text="Leer ..." HeightRequest="30" FontSize="9" Margin="10,0"></Button>
+                              </StackLayout>
+                           </Frame>
+
+                       <Frame  Grid.Column="1" Grid.Row="0" Margin="3">
+                               <StackLayout Padding="4">
+                               <Label Text="Unidad 2" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+                                   <Image Source="icono_Lectura.png" HeightRequest="100"></Image>
+                                   <Label  Text="Exponentes y radicales" TextColor="Gray" FontSize="11" HorizontalOptions="CenterAndExpand"/>
+                                   <Button  Clicked="Btn_IrAUnidad2" Text="Leer ..." HeightRequest="30" FontSize="9" Margin="10,0"></Button>
+                              </StackLayout>
+                           </Frame>
+
+                       <Frame  Grid.Column="0" Grid.Row="1" Margin="3">
+                               <StackLayout Padding="4">
+                               <Label Text="Unidad 3" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+                                   <Image Source="icono_Lectura.png" HeightRequest="100"></Image>
+                                   <Label  Text="Expresiones algebraicas" TextColor="Gray" FontSize="11" HorizontalOptions="CenterAndExpand"/>
+                                   <Button  Clicked="Btn_IrAUnidad3" Text="Leer ..." HeightRequest="30" FontSize="9" Margin="10,0"></Button>
+                              </StackLayout>
+                           </Frame>
+
+                       <Frame  Grid.Column="1" Grid.Row="1" Margin="3">
+                               <StackLayout Padding="4">
+                               <Label Text="Unidad 4" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+                                   <Image Source="icono_Lectura.png" HeightRequest="100"></Image>
+                                   <Label  Text="Expresiones racionales" TextColor="Gray" FontSize="11" HorizontalOptions="CenterAndExpand"/>
+                                   <Button  Clicked="Btn_IrAUnidad4" Text="Leer ..." HeightRequest="30" FontSize="9" Margin="10,0"></Button>
+                              </StackLayout>
+                           </Frame>
+
+                       <Frame  Grid.Column="0" Grid.Row="2" Margin="3">
+                               <StackLayout Padding="4">
+                               <Label Text="Unidad 5" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+                                   <Image Source="icono_Lectura.png" HeightRequest="100"></Image>
+                                   <Label  Text="Ecuaciones" TextColor="Gray" FontSize="11" HorizontalOptions="CenterAndExpand"/>
+                                   <Button  Clicked="Btn_IrAUnidad5" Text="Leer ..." HeightRequest="30" FontSize="9" Margin="10,0"></Button>
+                              </StackLayout>
+                           </Frame>
+
+                       <Frame  Grid.Column="1" Grid.Row="2" Margin="3">
+                               <StackLayout Padding="4">
+                               <Label Text="Unidad 6" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+                                   <Image Source="icono_Lectura.png" HeightRequest="100"></Image>
+                                   <Label  Text="Modelado con ecuaciones" TextColor="Gray" FontSize="11" HorizontalOptions="CenterAndExpand"/>
+                                   <Button  Clicked="Btn_IrAUnidad6" Text="Leer ..." HeightRequest="30" FontSize="9" Margin="10,0"></Button>
+                              </StackLayout>
+                           </Frame>
+
+                       <Frame  Grid.Column="0" Grid.Row="3" Margin="3">
+                               <StackLayout Padding="4">
+                               <Label Text="Unidad 7" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+                                   <Image Source="icono_Lectura.png" HeightRequest="100"></Image>
+                                   <Label  Text="Rectas" TextColor="Gray" FontSize="11" HorizontalOptions="CenterAndExpand"/>
+                                   <Button  Clicked="Btn_IrAUnidad7" Text="Leer ..." HeightRequest="30" FontSize="9" Margin="10,0"></Button>
+                              </StackLayout>
+
+                           </Frame>
+
+                       <Frame  Grid.Column="1" Grid.Row="3" Margin="3">
+                               <StackLayout Padding="4">
+                               <Label Text="Unidad 8" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+                                   <Image Source="icono_Lectura.png" HeightRequest="100"></Image>
+                                   <Label  Text="Logaritmos y exponeciales" TextColor="Gray" FontSize="11" HorizontalOptions="CenterAndExpand"/>
+                                   <Button  Clicked="Btn_IrAUnidad8" Text="Leer ..." HeightRequest="30" FontSize="9" Margin="10,0"></Button>
+                              </StackLayout>
+                           </Frame>
+
+                        <Frame  Grid.Column="0" Grid.Row="4" Margin="3">
+                               <StackLayout Padding="4">
+                               <Label Text="Unidad 9" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+                                   <Image Source="icono_Lectura.png" HeightRequest="100"></Image>
+                                   <Label  Text="Logaritmos y exponeciales" TextColor="Gray" FontSize="11" HorizontalOptions="CenterAndExpand"/>
+                                   <Button  Clicked="Btn_IrAUnidad9" Text="Leer ..." HeightRequest="30" FontSize="9" Margin="10,0"></Button>
+                              </StackLayout>
+                           </Frame>
+
                    </Grid>
                 </ScrollView>
 </ContentPage>

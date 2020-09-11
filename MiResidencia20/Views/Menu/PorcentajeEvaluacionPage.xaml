@@ -12,7 +12,7 @@
                 <!--Defino Filas-->
                  <Grid.RowDefinitions>
                       <!--Difino mis filas a usar de 0-n-->
-                        <RowDefinition></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
                         <RowDefinition></RowDefinition>
                         <RowDefinition></RowDefinition>
                         <RowDefinition></RowDefinition>

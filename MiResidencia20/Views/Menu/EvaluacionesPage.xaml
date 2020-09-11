@@ -21,8 +21,10 @@
                                <ColumnDefinition/>
                                <ColumnDefinition/>  
                             </Grid.ColumnDefinitions>
+
+
                        
-                            <Button Text=" Unidad 1"  Clicked="Btn_IrAEvaluacionU1" BackgroundColor="#FEC194"  CornerRadius="4" Grid.Row="0" Grid.Column="0"/>
+                            <!--<Button Text=" Unidad 1"  Clicked="Btn_IrAEvaluacionU1" BackgroundColor="#FEC194"  CornerRadius="4" Grid.Row="0" Grid.Column="0"/>
                             <Button Text=" Unidad 2"  Clicked="Btn_IrAEvaluacionU2" BackgroundColor="#00FFA9"  CornerRadius="4" Grid.Row="0" Grid.Column="1"/>
                             <Button Text=" Unidad 3"  Clicked="Btn_IrAEvaluacionU3" BackgroundColor="#1FC9FD"  CornerRadius="4" Grid.Row="1" Grid.Column="0"/>
                             <Button Text=" Unidad 4"  Clicked="Btn_IrAEvaluacionU4" BackgroundColor="#A32CDF"  CornerRadius="4" Grid.Row="1" Grid.Column="1"/> 
@@ -30,7 +32,7 @@
                             <Button Text=" Unidad 6"  Clicked="Btn_IrAEvaluacionU6" BackgroundColor="#00C0FF"  CornerRadius="4" Grid.Row="2" Grid.Column="1"/> 
                             <Button Text=" Unidad 7"  Clicked="Btn_IrAEvaluacionU7" BackgroundColor="#00FFFF"  CornerRadius="4" Grid.Row="3" Grid.Column="0"/>
                             <Button Text=" Unidad 8"  Clicked="Btn_IrAEvaluacionU8" BackgroundColor="#FF0A6C"  CornerRadius="4" Grid.Row="3" Grid.Column="1"/> 
-                            <Button Text=" Unidad 9"  Clicked="Btn_IrAEvaluacionU9" BackgroundColor="#EAE5C9"  CornerRadius="4" Grid.Row="4" Grid.Column="0"/> 
+                            <Button Text=" Unidad 9"  Clicked="Btn_IrAEvaluacionU9" BackgroundColor="#EAE5C9"  CornerRadius="4" Grid.Row="4" Grid.Column="0"/>--> 
                    </Grid>
                 </ScrollView>
                 </StackLayout>
