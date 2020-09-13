@@ -99,7 +99,24 @@
               <Setter Property="Margin" Value="35,0"/>
             </Style>
 
-            <!--8.Contenido de Juegos-->
+            <!--8  Menús Cards Teorías|Evaluación... -->
+            <!--8.1  Cards-->
+            <Style TargetType="Label" x:Key="Lbl_cards">
+                <Setter Property="TextColor" Value="Gray"/>
+                <Setter Property="FontSize" Value="11"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+            </Style>
+
+            <!--8.2  CardsButtons-->
+            <Style TargetType="Button" x:Key="Btn_cards">
+                <Setter Property="HeightRequest" Value="30"/>
+                <Setter Property="FontSize" Value="9"/>
+                <Setter Property="Margin" Value="10,0"/>
+            </Style>
+
+
+
+            <!--9.Contenido de Juegos-->
         </ResourceDictionary>
     </Application.Resources>
 </Application>

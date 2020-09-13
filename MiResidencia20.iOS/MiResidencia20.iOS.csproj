@@ -138,11 +138,21 @@
     <BundleResource Include="Resources\icono_Juego.png" />
     <BundleResource Include="Resources\icono_Revaluacion.png" />
     <BundleResource Include="Resources\icono_Teoria.png" />
+    <BundleResource Include="Resources\icono_Evaluar.png" />
+    <BundleResource Include="Resources\icono_Usuario.png" />
+    <BundleResource Include="Resources\icono_Carrera.png" />
+    <BundleResource Include="Resources\icono_Grupo.png" />
+    <BundleResource Include="Resources\icono_Periodo.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\icon.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+    <AndroidResource Include="Resources\icono_Lectura.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\icono_Juego1.png" />
   </ItemGroup>
 </Project>

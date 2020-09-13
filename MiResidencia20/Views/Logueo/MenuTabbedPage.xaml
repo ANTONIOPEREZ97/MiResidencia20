@@ -8,5 +8,5 @@
       <local1:TeoriasPage Title="Teoría" IconImageSource="icono_Teoria.png"/>
       <local1:EvaluacionesPage Title="Evaluación" IconImageSource="icono_Evaluacion.png"/>
       <local1:PorcentajeEvaluacionPage Title="%Evaluación" IconImageSource="icono_Revaluacion.png"/>
-      <local1:JuegosPage Title="Juego"  IconImageSource="icono_Juego.png"/>
+      <local1:JuegosPage Title="Juego"  IconImageSource="icono_Juego1.png"/>
 </TabbedPage>
