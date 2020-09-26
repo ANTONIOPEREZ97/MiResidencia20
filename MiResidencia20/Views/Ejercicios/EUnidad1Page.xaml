@@ -3,15 +3,16 @@
              x:Class="MiResidencia20.Views.Ejercicios.EUnidad1Page"
              Title="Ejercicio">
    
-<StackLayout Margin="5" BackgroundColor="White">
+<StackLayout Margin="5" BackgroundColor="White" IsVisible="true" x:Name="Contenedor">
     <Label Text="Unidad I. Números Reales" Style="{StaticResource Lbl_TituloPrincipal}"/>
       <ScrollView>
         <StackLayout>
-            <!-- Ejercicio Nivel Básico-->
+             <!--Ejercicio Nivel Básico-->
             <Frame BackgroundColor="White"  Margin="3" CornerRadius="3" BorderColor="#C4ECE7">
                 <StackLayout>
 
-                 <Label Text="1.Son aquellos que no necesitan representarse como una fracción o un decimal. Además no pueden ser negativos:" Style="{StaticResource Lbl_pregunta}"/>
+                 <Label Text="1.Son aquellos que no necesitan representarse como una fracción o un decimal. Además no pueden ser negativos:"
+                        Style="{StaticResource Lbl_pregunta}"/>
                    <RelativeLayout>
                        <Grid ColumnSpacing="5">
                            <Grid.RowDefinitions>
@@ -32,7 +33,7 @@
                     </RelativeLayout>
 
 
-                 <Label Text="2. Son números naturales, pero también pueden ser negativos:"  Style="{StaticResource Lbl_pregunta}"/>
+                 <!--<Label Text="2. Son números naturales, pero también pueden ser negativos:"  Style="{StaticResource Lbl_pregunta}"/>
                    <RelativeLayout>
                        <Grid>
                            <Grid.RowDefinitions >
@@ -46,14 +47,14 @@
                                <ColumnDefinition/>  
                             </Grid.ColumnDefinitions>
 
-                       <CheckBox Grid.Column="0" Grid.Row="0"/> <Label Text="Números enteros" Grid.Column="1" Grid.Row="0"/>
-                       <CheckBox Grid.Column="0" Grid.Row="1"/> <Label Text="Números irracionales"  Grid.Column="1" Grid.Row="1"/>
-                       <CheckBox Grid.Column="0" Grid.Row="2"/> <Label Text="Números naturales"     Grid.Column="1" Grid.Row="2"/>
+                       <CheckBox Grid.Column="0" Grid.Row="0" x:Name="CheckRA2"/> <Label Text="Números enteros" Grid.Column="1" Grid.Row="0"/>
+                       <CheckBox Grid.Column="0" Grid.Row="1" x:Name="CheckB2"/> <Label Text="Números irracionales"  Grid.Column="1" Grid.Row="1"/>
+                       <CheckBox Grid.Column="0" Grid.Row="2" x:Name="CheckC2"/> <Label Text="Números naturales"     Grid.Column="1" Grid.Row="2"/>
                      </Grid>
-                    </RelativeLayout>
+                    </RelativeLayout>-->
 
 
-                 <Label Text="3.Son aquellos que no pueden expresarse como la fracción de dos enteros:" Style="{StaticResource Lbl_pregunta}"/>
+                 <!--<Label Text="3.Son aquellos que no pueden expresarse como la fracción de dos enteros:" Style="{StaticResource Lbl_pregunta}"/>
                    <RelativeLayout>
                        <Grid>
                            <Grid.RowDefinitions >
@@ -67,16 +68,16 @@
                                <ColumnDefinition/>  
                             </Grid.ColumnDefinitions>
 
-                       <CheckBox Grid.Column="0" Grid.Row="0"/> <Label Text="Números naturales" Grid.Column="1" Grid.Row="0"/>
-                       <CheckBox Grid.Column="0" Grid.Row="1"/> <Label Text="Números enteros"  Grid.Column="1" Grid.Row="1"/>
-                       <CheckBox Grid.Column="0" Grid.Row="2"/> <Label Text="Números irracionales"     Grid.Column="1" Grid.Row="2"/>
+                       <CheckBox Grid.Column="0" Grid.Row="0" x:Name="CheckA3"/> <Label Text="Números naturales" Grid.Column="1" Grid.Row="0"/>
+                       <CheckBox Grid.Column="0" Grid.Row="1" x:Name="CheckB3"/> <Label Text="Números enteros"  Grid.Column="1" Grid.Row="1"/>
+                       <CheckBox Grid.Column="0" Grid.Row="2" x:Name="CheckRC3"/> <Label Text="Números irracionales"     Grid.Column="1" Grid.Row="2"/>
                      </Grid>
-                   </RelativeLayout>
+                   </RelativeLayout>-->
 
                 </StackLayout>
             </Frame>
 
-                    <!-- Ejercicio Nivel Intermedio-->
+                     <!--Ejercicio Nivel Intermedio
             <Frame BackgroundColor="White"  Margin="2" CornerRadius="3" BorderColor="#B0CFF4">
                 <StackLayout>
 
@@ -146,7 +147,7 @@
                 </StackLayout>
             </Frame>
 
-            <!-- Ejercicio Nivel Avanzado-->
+             Ejercicio Nivel Avanzado
             <Frame BackgroundColor="White"  Margin="3" CornerRadius="3" BorderColor="#F99F8A">
                 <StackLayout>
 
@@ -222,7 +223,14 @@
                     </Grid>
                   </RelativeLayout>
 
-                    <Grid Margin="20,20">
+                    
+
+                </StackLayout>
+            </Frame>-->
+
+            
+
+            <Grid Margin="20,20">
                           <Grid.RowDefinitions>
                             <RowDefinition/>
                           </Grid.RowDefinitions>
@@ -235,9 +243,6 @@
                         <Button Text="Verificar"  Clicked="Btn_verificar" Grid.Row="0" Grid.Column="0"/> 
                         <Button Text="Concluir"  Clicked="Btn_concluir" Grid.Row="0" Grid.Column="1"/> 
                       </Grid>    
-
-                </StackLayout>
-            </Frame>
         </StackLayout>
      </ScrollView>
 </StackLayout>

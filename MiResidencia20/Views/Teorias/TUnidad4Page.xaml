@@ -43,8 +43,8 @@
 
                       <!--WebView: Video tutorial-->
                         <WebView x:Name="WebView" VerticalOptions="FillAndExpand"
-                                Source="https://www.youtube.com/watch?v=CALgkEkOT-0"
-                                Navigated="WebView_Navigated">
+                                Source="https://www.youtube.com/watch?v=CALgkEkOT-0">
+                               
                         </WebView>
 
                   </StackLayout>

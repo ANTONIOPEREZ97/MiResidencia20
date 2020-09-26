@@ -42,11 +42,11 @@
 
                      <Frame Grid.Row="1" Grid.Column="0"> <Label Text="1.Numeros Reales"/> </Frame>
                      <Frame Grid.Row="1" Grid.Column="1"> <Label Text="1"     Style="{StaticResource Lbl_Unidad}"/></Frame>
-                     <Frame Grid.Row="1" Grid.Column="2"> <Label Text="Input" Style="{StaticResource Lbl_Unidad}"/> </Frame>
+                     <Frame Grid.Row="1" Grid.Column="2"> <Label Text="80%" Style="{StaticResource Lbl_Unidad}"/> </Frame>
 
                      <Frame Grid.Row="2" Grid.Column="0"> <Label Text="2.Exponentes Y Radicales"/> </Frame>
                      <Frame Grid.Row="2" Grid.Column="1"> <Label Text="2"    Style="{StaticResource Lbl_Unidad}"/> </Frame>
-                     <Frame Grid.Row="2" Grid.Column="2"> <Label Text="Input" Style="{StaticResource Lbl_Unidad}"/> </Frame>
+                     <Frame Grid.Row="2" Grid.Column="2"> <Label Text="70%" Style="{StaticResource Lbl_Unidad}"/> </Frame>
 
                      <Frame Grid.Row="3" Grid.Column="0"> <Label Text="3.Expresiones Algebraicas"/> </Frame>
                      <Frame Grid.Row="3" Grid.Column="1"> <Label Text="3"     Style="{StaticResource Lbl_Unidad}" /> </Frame>

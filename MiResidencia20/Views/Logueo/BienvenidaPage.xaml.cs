@@ -13,9 +13,9 @@ namespace MiResidencia20.Views
             InitializeComponent();
         }
 
-        void Btn_IrARegistro(System.Object sender, System.EventArgs e)
+       public async void Btn_IrARegistro(System.Object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new RegistroPage());
+            await  Navigation.PushAsync(new RegistroPage());
           
         }
     }

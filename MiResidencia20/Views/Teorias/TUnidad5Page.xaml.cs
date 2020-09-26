@@ -26,10 +26,5 @@ namespace MiResidencia20.Views.Teorias
             var meWebUnidad5 = WebView.Source;
         }
 
-        public async void WebView_Navigated(System.Object sender, Xamarin.Forms.WebNavigatedEventArgs e)
-        {
-            var CanGoBack = WebView.CanGoBack;
-            await DisplayAlert("Navegando", "Página Cargada", "Ok");
-        }
     }
 }
