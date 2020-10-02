@@ -27,9 +27,11 @@
     <Folder Include="Imagenes\" />
     <Folder Include="Imagenes\Teoria\" />
     <Folder Include="Data\" />
+    <Folder Include="Views\About\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\Evaluaciones\EvalUnidad1Page.xaml.cs" />
+    <Compile Remove="Data\InfoMasterDetailPage.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Logueo\BienvenidaPage.xaml.cs">

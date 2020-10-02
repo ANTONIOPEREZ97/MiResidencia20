@@ -12,24 +12,26 @@
                 <!--Defino Filas-->
                  <Grid.RowDefinitions>
                       <!--Difino mis filas a usar de 0-n-->
-                        <RowDefinition Height="30"></RowDefinition>
-                        <RowDefinition></RowDefinition>
-                        <RowDefinition></RowDefinition>
-                        <RowDefinition></RowDefinition>
-                        <RowDefinition></RowDefinition>
-                        <RowDefinition></RowDefinition>
-                        <RowDefinition></RowDefinition>
-                        <RowDefinition></RowDefinition>
-                        <RowDefinition></RowDefinition>
-                 </Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+
+                </Grid.RowDefinitions>
 
                   <!--Defino Columnas-->
                   <Grid.ColumnDefinitions>
                        <!--Difino mis columnas a usar de 0-n-->
-                       <ColumnDefinition></ColumnDefinition>
-                       <ColumnDefinition></ColumnDefinition>
-                       <ColumnDefinition></ColumnDefinition>
-                  </Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+
+                </Grid.ColumnDefinitions>
 
                       <!--Cabeceras con estilos Explicitos-->
                      <Frame Grid.Row="0" Grid.Column="0"> <Label Text="UNIDAD"     Style="{StaticResource Lbl_Cabecera}"/> </Frame>

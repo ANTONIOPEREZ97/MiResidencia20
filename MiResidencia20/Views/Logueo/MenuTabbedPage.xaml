@@ -4,7 +4,9 @@
             xmlns:local1="clr-namespace:MiResidencia20.Views.Menu"
             x:Class="MiResidencia20.Views.Logueo.MenuTabbedPage"
             Title="AppMatemáticas">
+
           <!--Mis paginas de navegación para mi Menu-->
+      <local1:HomeMasterDetailPageMaster Title="Home" IconImageSource="icono_Home.png"/>
       <local1:TeoriasPage Title="Teoría" IconImageSource="icono_Teoria.png"/>
       <local1:EvaluacionesPage Title="Evaluación" IconImageSource="icono_Evaluacion.png"/>
       <local1:PorcentajeEvaluacionPage Title="%Evaluación" IconImageSource="icono_Revaluacion.png"/>

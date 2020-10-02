@@ -157,5 +157,7 @@
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\icono_Juego1.png" />
+    <AndroidResource Include="Resources\icono_Acercade.png" />
+    <AndroidResource Include="Resources\icono_Home.png" />
   </ItemGroup>
 </Project>

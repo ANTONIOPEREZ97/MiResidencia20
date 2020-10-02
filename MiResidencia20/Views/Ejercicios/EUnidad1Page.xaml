@@ -3,15 +3,13 @@
              x:Class="MiResidencia20.Views.Ejercicios.EUnidad1Page"
              Title="Ejercicio">
    
-<StackLayout Margin="5" BackgroundColor="White" IsVisible="true" x:Name="Contenedor">
-    <Label Text="Unidad I. Números Reales" Style="{StaticResource Lbl_TituloPrincipal}"/>
+<StackLayout Margin="5" BackgroundColor="White">
+    <Label Text="Unidad I. Números Reales" Style="{StaticResource Lbl_TituloPrincipal}" Padding="20"/>
       <ScrollView>
         <StackLayout>
-             <!--Ejercicio Nivel Básico-->
-            <Frame BackgroundColor="White"  Margin="3" CornerRadius="3" BorderColor="#C4ECE7">
+            <Frame BackgroundColor="White"  Margin="3,40" CornerRadius="3" BorderColor="#C4ECE7" HeightRequest="270">
                 <StackLayout>
-
-                 <Label Text="1.Son aquellos que no necesitan representarse como una fracción o un decimal. Además no pueden ser negativos:"
+                 <Label x:Name="LabelPregunta"
                         Style="{StaticResource Lbl_pregunta}"/>
                    <RelativeLayout>
                        <Grid ColumnSpacing="5">
@@ -26,223 +24,21 @@
                                <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
 
-                         <CheckBox Grid.Column="0" Grid.Row="0" x:Name="CheckA1"/> <Label Text="Números irracionales" Grid.Column="1" Grid.Row="0" />
-                         <CheckBox Grid.Column="0" Grid.Row="1" x:Name="CheckRB1"/> <Label Text="Números naturales"   Grid.Column="1" Grid.Row="1" />
-                         <CheckBox Grid.Column="0" Grid.Row="2" x:Name="CheckC1"/> <Label Text="Números enteros"      Grid.Column="1" Grid.Row="2" />
+                         <CheckBox Grid.Column="0" Grid.Row="0" x:Name="check1"/>  <Label x:Name="LabelPreguntaUno" Grid.Column="1" Grid.Row="0" />
+                         <CheckBox Grid.Column="0" Grid.Row="1" x:Name="check2" /> <Label x:Name="LabelPreguntaDos" Grid.Column="1" Grid.Row="1" />
+                         <CheckBox Grid.Column="0" Grid.Row="2" x:Name="check3"/>  <Label  x:Name="LabelPreguntaTres" Grid.Column="1" Grid.Row="2" />
                        </Grid>
                     </RelativeLayout>
-
-
-                 <!--<Label Text="2. Son números naturales, pero también pueden ser negativos:"  Style="{StaticResource Lbl_pregunta}"/>
-                   <RelativeLayout>
-                       <Grid>
-                           <Grid.RowDefinitions >
-                                <RowDefinition/>
-                                <RowDefinition/>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-
-                            <Grid.ColumnDefinitions>
-                               <ColumnDefinition/>
-                               <ColumnDefinition/>  
-                            </Grid.ColumnDefinitions>
-
-                       <CheckBox Grid.Column="0" Grid.Row="0" x:Name="CheckRA2"/> <Label Text="Números enteros" Grid.Column="1" Grid.Row="0"/>
-                       <CheckBox Grid.Column="0" Grid.Row="1" x:Name="CheckB2"/> <Label Text="Números irracionales"  Grid.Column="1" Grid.Row="1"/>
-                       <CheckBox Grid.Column="0" Grid.Row="2" x:Name="CheckC2"/> <Label Text="Números naturales"     Grid.Column="1" Grid.Row="2"/>
-                     </Grid>
-                    </RelativeLayout>-->
-
-
-                 <!--<Label Text="3.Son aquellos que no pueden expresarse como la fracción de dos enteros:" Style="{StaticResource Lbl_pregunta}"/>
-                   <RelativeLayout>
-                       <Grid>
-                           <Grid.RowDefinitions >
-                                <RowDefinition/>
-                                <RowDefinition/>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-
-                            <Grid.ColumnDefinitions>
-                               <ColumnDefinition/>
-                               <ColumnDefinition/>  
-                            </Grid.ColumnDefinitions>
-
-                       <CheckBox Grid.Column="0" Grid.Row="0" x:Name="CheckA3"/> <Label Text="Números naturales" Grid.Column="1" Grid.Row="0"/>
-                       <CheckBox Grid.Column="0" Grid.Row="1" x:Name="CheckB3"/> <Label Text="Números enteros"  Grid.Column="1" Grid.Row="1"/>
-                       <CheckBox Grid.Column="0" Grid.Row="2" x:Name="CheckRC3"/> <Label Text="Números irracionales"     Grid.Column="1" Grid.Row="2"/>
-                     </Grid>
-                   </RelativeLayout>-->
-
                 </StackLayout>
             </Frame>
-
-                     <!--Ejercicio Nivel Intermedio
-            <Frame BackgroundColor="White"  Margin="2" CornerRadius="3" BorderColor="#B0CFF4">
-                <StackLayout>
-
-                 <Label Text="4. Propiedad de los números reales que cuando sumamos o multiplicamos dos números, el orden no importa; A+B=B+A, AB=BA:" Style="{StaticResource Lbl_pregunta}"/>
-                   <RelativeLayout>
-                       <Grid>
-                           <Grid.RowDefinitions >
-                                <RowDefinition/>
-                                <RowDefinition/>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-
-                            <Grid.ColumnDefinitions>
-                               <ColumnDefinition/>
-                               <ColumnDefinition/>  
-                            </Grid.ColumnDefinitions>
-
-                       <CheckBox Grid.Column="0" Grid.Row="0"/> <Label Text="Conmutativa" Grid.Column="1" Grid.Row="0" Style="{StaticResource Lbl_respuestaCheck}"/>
-                       <CheckBox Grid.Column="0" Grid.Row="1"/> <Label Text="Asociativa"  Grid.Column="1" Grid.Row="1" Style="{StaticResource Lbl_respuestaCheck}"/>
-                       <CheckBox Grid.Column="0" Grid.Row="2"/> <Label Text="Distributiva"    Grid.Column="1" Grid.Row="2" Style="{StaticResource Lbl_respuestaCheck}"/>
-                     </Grid>
-                   </RelativeLayout>
-
-                 <Label Text="5.Propiedad de los números reales que cuando sumamos o multiplicamos tres números, no importa cuales dos de ellos sumamos
-                               o multiplicamos primero;(A+B)+C=A+(B+C),(AB)C=A(BC):" Style="{StaticResource Lbl_pregunta}"/>
-                   <RelativeLayout>
-
-                     <Grid>
-                           <Grid.RowDefinitions >
-                                <RowDefinition/>
-                                <RowDefinition/>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-
-                            <Grid.ColumnDefinitions>
-                               <ColumnDefinition/>
-                               <ColumnDefinition/>  
-                            </Grid.ColumnDefinitions>
-
-                       <CheckBox Grid.Column="0" Grid.Row="0"/> <Label Text="Conmutativa" Grid.Column="1" Grid.Row="0" Style="{StaticResource Lbl_respuestaCheck}"/>
-                       <CheckBox Grid.Column="0" Grid.Row="1"/> <Label Text="Asociativa"  Grid.Column="1" Grid.Row="1" Style="{StaticResource Lbl_respuestaCheck}"/>
-                       <CheckBox Grid.Column="0" Grid.Row="2"/> <Label Text="Distributiva" Grid.Column="1" Grid.Row="2" Style="{StaticResource Lbl_respuestaCheck}"/>
-                     </Grid>
-                   </RelativeLayout>
-
-                 <Label Text="6.Propiedad de los números reales que cuando multiplicamos un número por una suma de dos números,
-                             obtenemos el mismo resultado si multiplicamos el número por cada uno de los términos
-                             y luego sumamos los resultados; A(B+C)=AB+AC,(B+C)A=AB+AC:" Style="{StaticResource Lbl_pregunta}"/>
-
-                  <RelativeLayout>
-                    <Grid>
-                           <Grid.RowDefinitions >
-                                <RowDefinition/>
-                                <RowDefinition/>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-
-                            <Grid.ColumnDefinitions>
-                               <ColumnDefinition/>
-                               <ColumnDefinition/>  
-                            </Grid.ColumnDefinitions>
-                      <CheckBox Grid.Column="0" Grid.Row="0"/> <Label Text="Conmutativa" Grid.Column="1" Grid.Row="0" Style="{StaticResource Lbl_respuestaCheck}"/>
-                      <CheckBox Grid.Column="0" Grid.Row="1"/> <Label Text="Asociativa"  Grid.Column="1" Grid.Row="1" Style="{StaticResource Lbl_respuestaCheck}"/>
-                      <CheckBox Grid.Column="0" Grid.Row="2"/> <Label Text="Distributiva" Grid.Column="1" Grid.Row="2" Style="{StaticResource Lbl_respuestaCheck}"/>
-                    </Grid>
-                  </RelativeLayout>
-                </StackLayout>
-            </Frame>
-
-             Ejercicio Nivel Avanzado
-            <Frame BackgroundColor="White"  Margin="3" CornerRadius="3" BorderColor="#F99F8A">
-                <StackLayout>
-
-                 <Label Text="7.Verficar si  la desigualdad es verdadero o falsa -π > -3:"  Grid.Column="0" Grid.Row="3" Style="{StaticResource Lbl_pregunta}"/>
-                  <RelativeLayout>
-                    <Grid>
-                           <Grid.RowDefinitions >
-                               <RowDefinition/>
-                               <RowDefinition/>
-                            </Grid.RowDefinitions>
-
-                            <Grid.ColumnDefinitions>
-                               <ColumnDefinition/>
-                               <ColumnDefinition/>  
-                            </Grid.ColumnDefinitions>
-
-                       <CheckBox Grid.Column="0" Grid.Row="0"/> <Label Text="Falso" Grid.Column="1" Grid.Row="0" Style="{StaticResource Lbl_respuestaCheck}"/>
-                       <CheckBox Grid.Column="0" Grid.Row="1"/> <Label Text="Verdadero"  Grid.Column="1" Grid.Row="1" Style="{StaticResource Lbl_respuestaCheck}"/>
-                    </Grid>
-                  </RelativeLayout>
-
-
-                 <Label Text="8.Verficar si  la desigualdad es verdadero o falsa  √2 > 1.41:"  Grid.Column="0" Grid.Row="3" Style="{StaticResource Lbl_pregunta}"/>
-                  <RelativeLayout>
-                   <Grid>
-                           <Grid.RowDefinitions>
-                               <RowDefinition/>
-                               <RowDefinition/>
-                            </Grid.RowDefinitions>
-
-                            <Grid.ColumnDefinitions>
-                               <ColumnDefinition/>
-                               <ColumnDefinition/>  
-                            </Grid.ColumnDefinitions>
-                      <CheckBox Grid.Column="0" Grid.Row="0"/> <Label Text="Falso" Grid.Column="1" Grid.Row="0" Style="{StaticResource Lbl_respuestaCheck}"/>
-                      <CheckBox Grid.Column="0" Grid.Row="1"/> <Label Text="Verdadero"  Grid.Column="1" Grid.Row="1" Style="{StaticResource Lbl_respuestaCheck}"/>
-                    </Grid>
-                  </RelativeLayout>
-
-                 <Label Text="9.Verficar si  la desigualdad es verdadero o falsa -1/2 &lt; -1 : "  Grid.Column="0" Grid.Row="3" Style="{StaticResource Lbl_pregunta}"/>
-                  <RelativeLayout>
-                      <Grid>
-                           <Grid.RowDefinitions >
-                               <RowDefinition/>
-                               <RowDefinition/>
-                            </Grid.RowDefinitions>
-
-                            <Grid.ColumnDefinitions>
-                               <ColumnDefinition/>
-                               <ColumnDefinition/>  
-                            </Grid.ColumnDefinitions>
-
-                      <CheckBox Grid.Column="0" Grid.Row="0"/> <Label Text="Falso" Grid.Column="1" Grid.Row="0" Style="{StaticResource Lbl_respuestaCheck}"/>
-                      <CheckBox Grid.Column="0" Grid.Row="1"/> <Label Text="Verdadero"  Grid.Column="1" Grid.Row="1" Style="{StaticResource Lbl_respuestaCheck}"/>
-                    </Grid>
-                  </RelativeLayout>
-
-                 <Label Text="10.Verficar si  la desigualdad es verdadero o falsa 8 &lt; 9:"  Grid.Column="0" Grid.Row="3" Style="{StaticResource Lbl_pregunta}"/>
-                  <RelativeLayout>
-                      <Grid>
-                           <Grid.RowDefinitions >
-                               <RowDefinition/>
-                               <RowDefinition/>
-                            </Grid.RowDefinitions>
-
-                            <Grid.ColumnDefinitions>
-                               <ColumnDefinition/>
-                               <ColumnDefinition/>  
-                            </Grid.ColumnDefinitions>
-                  
-                      <CheckBox Grid.Column="0" Grid.Row="0"/> <Label Text="Falso" Grid.Column="1" Grid.Row="0" Style="{StaticResource Lbl_respuestaCheck}"/>
-                      <CheckBox Grid.Column="0" Grid.Row="1"/> <Label Text="Verdadero"  Grid.Column="1" Grid.Row="1" Style="{StaticResource Lbl_respuestaCheck}"/>
-                    </Grid>
-                  </RelativeLayout>
 
                     
+            <StackLayout>
 
-                </StackLayout>
-            </Frame>-->
+                <Button Text="siguiente"  Clicked="Btn_siguiente"
+                HorizontalOptions="Center" WidthRequest="150"/>
 
-            
-
-            <Grid Margin="20,20">
-                          <Grid.RowDefinitions>
-                            <RowDefinition/>
-                          </Grid.RowDefinitions>
-
-                          <Grid.ColumnDefinitions>
-                           <ColumnDefinition/>
-                           <ColumnDefinition/>
-                          </Grid.ColumnDefinitions>
-                        
-                        <Button Text="Verificar"  Clicked="Btn_verificar" Grid.Row="0" Grid.Column="0"/> 
-                        <Button Text="Concluir"  Clicked="Btn_concluir" Grid.Row="0" Grid.Column="1"/> 
-                      </Grid>    
+            </StackLayout>
         </StackLayout>
      </ScrollView>
 </StackLayout>
