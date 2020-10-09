@@ -7,28 +7,33 @@
     <Label Text="Unidad I. Números Reales" Style="{StaticResource Lbl_TituloPrincipal}" Padding="20"/>
       <ScrollView>
         <StackLayout>
-            <Frame BackgroundColor="White"  Margin="3,40" CornerRadius="3" BorderColor="#C4ECE7" HeightRequest="270">
+            <StackLayout Orientation="Horizontal">
+             <Label x:Name="labelNivel" Text="Nivel básico"  FontAttributes="Bold" FontSize="15" TextColor="Silver" />
+            <Label x:Name="labelContadorPreguntas"   HorizontalOptions="EndAndExpand" FontAttributes ="Bold" FontSize="15" TextColor="Silver"/>
+            </StackLayout>
+           
+            <Frame BackgroundColor="White"  Margin="2" CornerRadius="3" BorderColor="#C4ECE7" HeightRequest="400">
                 <StackLayout>
-                 <Label x:Name="LabelPregunta"
+                 <Label x:Name="labelPreguntaDescripcion" 
                         Style="{StaticResource Lbl_pregunta}"/>
-                   <RelativeLayout>
-                       <Grid ColumnSpacing="5">
+                   <StackLayout>
+                       <Grid>
                            <Grid.RowDefinitions>
-                                <RowDefinition/>
-                                <RowDefinition/>
-                                <RowDefinition/>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="40"/>
                             </Grid.RowDefinitions>
 
                             <Grid.ColumnDefinitions>
                                <ColumnDefinition/>
-                               <ColumnDefinition/>
+                               <ColumnDefinition Width="12*"/>
                             </Grid.ColumnDefinitions>
-
-                         <CheckBox Grid.Column="0" Grid.Row="0" x:Name="check1"/>  <Label x:Name="LabelPreguntaUno" Grid.Column="1" Grid.Row="0" />
-                         <CheckBox Grid.Column="0" Grid.Row="1" x:Name="check2" /> <Label x:Name="LabelPreguntaDos" Grid.Column="1" Grid.Row="1" />
-                         <CheckBox Grid.Column="0" Grid.Row="2" x:Name="check3"/>  <Label  x:Name="LabelPreguntaTres" Grid.Column="1" Grid.Row="2" />
+                      
+                         <CheckBox Grid.Column="0" Grid.Row="0" x:Name="checkA"/>  <Label  x:Name="labelRespuestaA"   Grid.Column="1" Grid.Row="0"  Style="{StaticResource Lbl_respuestaOpciones}"/>
+                         <CheckBox Grid.Column="0" Grid.Row="1" x:Name="checkB" /> <Label  x:Name="labelRespuestaB"   Grid.Column="1" Grid.Row="1"   Style="{StaticResource Lbl_respuestaOpciones}"/>
+                         <CheckBox Grid.Column="0" Grid.Row="2" x:Name="checkC"/>  <Label  x:Name="labelRespuestaC"   Grid.Column="1" Grid.Row="2"     Style="{StaticResource Lbl_respuestaOpciones}"/>
                        </Grid>
-                    </RelativeLayout>
+                    </StackLayout>
                 </StackLayout>
             </Frame>
 
@@ -37,6 +42,7 @@
 
                 <Button Text="siguiente"  Clicked="Btn_siguiente"
                 HorizontalOptions="Center" WidthRequest="150"/>
+                       
 
             </StackLayout>
         </StackLayout>

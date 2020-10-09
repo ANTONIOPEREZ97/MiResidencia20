@@ -105,11 +105,7 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\icono_Juego.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\TecNM.png">
+    <AndroidResource Include="Resources\drawable\logo_TecNM.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
@@ -125,7 +121,19 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+    <AndroidResource Include="Resources\drawable\icono_Acercade.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\icono_Home.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
     <AndroidResource Include="Resources\drawable\icono_Usuario.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\icono_Carrera.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
@@ -137,15 +145,11 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\icono_Carrera.png">
+    <AndroidResource Include="Resources\drawable\logo_ITTG.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\icono_Acercade.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\icono_Home.png">
+    <AndroidResource Include="Resources\drawable\logoApp.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>

@@ -136,9 +136,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\TecNM.png" />
+    <BundleResource Include="Resources\logo_TecNM.png" />
     <BundleResource Include="Resources\icono_Evaluacion.png" />
-    <BundleResource Include="Resources\icono_Juego.png" />
     <BundleResource Include="Resources\icono_Revaluacion.png" />
     <BundleResource Include="Resources\icono_Teoria.png" />
     <BundleResource Include="Resources\icono_Evaluar.png" />
@@ -146,6 +145,8 @@
     <BundleResource Include="Resources\icono_Carrera.png" />
     <BundleResource Include="Resources\icono_Grupo.png" />
     <BundleResource Include="Resources\icono_Periodo.png" />
+    <BundleResource Include="Resources\logo_ITTG.png" />
+    <BundleResource Include="Resources\SplashSCreen.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\icon.png">
